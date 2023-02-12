@@ -1,0 +1,21 @@
+input {
+  background-color: transparent;
+  color: white;
+  width: 70%;
+  border-width: 0;
+  border-radius: 0;
+  font-size: 14px;
+  border-bottom: 1px solid #bbb;
+  padding: 16px;
+  margin: 10px;
+}
+
+textarea {
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  width: 77%;
+  border-bottom: 1px solid #bbb;
+  padding: 16px;
+  margin: 10px;
+  background-color: transparent;
+}
