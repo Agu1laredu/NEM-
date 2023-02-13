@@ -1,5 +1,5 @@
 import "./Banner.css";
-import BannerImg from "./assets/pasos-para-desarrollar-tu-pagina-web.jpg";
+import BannerImg from "./assets/th.jpg";
 
 function Banner() {
   return (
