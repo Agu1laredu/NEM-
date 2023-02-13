@@ -46,7 +46,7 @@ function Servicios() {
             mantenimiento.
           </p>
         </article>
-        <article className="article" style={{ marginTop: "100px" }}>
+        <article className="article" style={{ marginTop: "100px", marginLeft: '50px' }}>
           <AiOutlineShake
             style={{
               marginBottom: "-20px",
@@ -80,7 +80,7 @@ function Servicios() {
             configuración de pagos y envíos.
           </p>
         </article>
-        <article className="article" style={{ marginTop: "100px" }}>
+        <article className="article" style={{ marginTop: "100px", marginLeft: '50px' }}>
           <AiOutlineLaptop
             style={{
               marginBottom: "-20px",
@@ -114,7 +114,7 @@ function Servicios() {
             Soporte técnico.
           </p>
         </article>
-        <article className="article" style={{ marginTop: "100px" }}>
+        <article className="article" style={{ marginTop: "100px", marginLeft: '50px' }}>
           <AiOutlineCluster
             style={{
               marginBottom: "-20px",
@@ -148,7 +148,7 @@ function Servicios() {
             informe mensual. Resultados duraderos.
           </p>
         </article>
-        <article className="article" style={{ marginTop: "100px" }}>
+        <article className="article" style={{ marginTop: "100px", marginLeft: '50px' }}>
           <AiOutlineSound
             style={{
               marginBottom: "-20px",

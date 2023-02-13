@@ -8,10 +8,12 @@ function Footer() {
     <div>
       <div
         className="Footer"
-        style={{ display: "flex", height: "300px", backgroundColor: "#343740" }}
+        style={{ display: "flex", height: "200px", backgroundColor: "#343740" }}
       >
         <div style={{ width: "200px", margin: "auto" }}>
-          <AiFillPhone style={{ color: "#0096d5" }} />
+          <AiFillPhone
+            style={{ color: "#0096d5", position: "relative", left: "10px" }}
+          />
           <b
             style={{
               position: "relative",
@@ -24,12 +26,14 @@ function Footer() {
           </b>
         </div>
         <div style={{ width: "200px", margin: "auto" }}>
-          <MdEmail style={{ color: "#0096d5" }} />
+          <MdEmail
+            style={{ color: "#0096d5", position: "relative", left: "115px" }}
+          />
           <b
             style={{
               position: "relative",
               top: "35px",
-              left: "-20px",
+              left: "20px",
               color: "#ede1df",
             }}
           >
@@ -44,12 +48,14 @@ function Footer() {
             top: "-2px",
           }}
         >
-          <BsFillPinFill style={{ color: "#0096d5" }} />
+          <BsFillPinFill
+            style={{ color: "#0096d5", position: "relative", left: "140px" }}
+          />
           <b
             style={{
               position: "relative",
-              top: "35px",
-              left: "-42px",
+              top: "50px",
+              left: "100px",
               color: "#ede1df",
             }}
           >
