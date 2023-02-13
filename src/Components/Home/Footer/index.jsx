@@ -41,7 +41,7 @@ function Footer() {
             width: "200px",
             margin: "auto",
             position: "relative",
-            top: "25px",
+            top: "-2px",
           }}
         >
           <BsFillPinFill style={{ color: "#0096d5" }} />
