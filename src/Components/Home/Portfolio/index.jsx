@@ -12,7 +12,6 @@ function NoTransitionExample() {
           <img src={imagenTres} className="d-block w-100" alt="..." />
           <img src={imagenDos} className="d-block w-100" alt="..." />
           <img src={imagenUno} className="d-block w-100" alt="..." />
-          <img src={imagenDos} className="d-block w-100" alt="..." />
           <img src={imagenCuatro} className="d-block w-100" alt="..." />
         </div>
         <button
