@@ -8,8 +8,8 @@ function Formulario() {
       style={{ backgroundColor: "#0096d5", height: "650px" }}
     >
       <div>
-        <h3 style={{ position: "relative", top: "40px"}}>¿NECESITAS AYUDA?</h3>
-        <h3 style={{ color: "white",position: "relative", top: "40px" }}>ESCRÍBENOS</h3>
+        <h3 style={{ position: "relative", top: "40px", textAlign: 'center'}}>¿NECESITAS AYUDA?</h3>
+        <h3 style={{ color: "white",position: "relative", top: "40px", textAlign: 'center' }}>ESCRÍBENOS</h3>
         <p style={{ position: "relative", top: "40px", left: "350px" }}>
           Empresa de software con experiencia. Soluciones a medida. Solicita un
           presupuesto sin compromiso.
@@ -20,7 +20,7 @@ function Formulario() {
           action=""
           style={{
             position: "relative",
-            left: "430px",
+            left: "500px",
             top: "100px",
             width: "500px",
             height: "300px",

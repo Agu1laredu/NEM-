@@ -19,7 +19,7 @@ function NoTransitionExample() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
-          style={{position: 'relative', top: '-10px', left: '-50px'}}
+          style={{position: 'relative', top: '-10px', left: '500px'}}
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -29,7 +29,7 @@ function NoTransitionExample() {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
-          style={{position: 'relative', top: '-10px', left: '10px'}}
+          style={{position: 'relative', top: '-10px', left: '600px'}}
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>

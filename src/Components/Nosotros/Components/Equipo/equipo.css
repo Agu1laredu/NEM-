@@ -1,0 +1,15 @@
+.Equipo { 
+    margin-top: -400px;
+}
+
+.Equipo h2 {
+    text-align: center;
+}
+
+.Equipo p {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: -150px;
+    width: 100%;
+}

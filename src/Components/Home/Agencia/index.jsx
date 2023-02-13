@@ -3,8 +3,8 @@ import { GoVerified } from "react-icons/go";
 function Agencia() {
   return (
     <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" }}>
-      <div style={{ position: 'relative', top: '40px'}}>
-        <h1>AGENCIA</h1>
+      <div style={{ position: "relative", top: "40px" }}>
+        <h1 style={{ textAlign: "center" }}>AGENCIA</h1>
         <p style={{ position: "relative", left: "350px", top: "2px" }}>
           Servicios de marketing digital que conectan a tu empresa con
           potenciales clientes.
@@ -16,8 +16,16 @@ function Agencia() {
           className="article"
           style={{ width: "47.25%", marginTop: "50px" }}
         >
-          <GoVerified style={{ marginBottom: "-20px" }} />
-          <h3>SITIO RESPONSIVE </h3>
+          <GoVerified
+            style={{
+              marginBottom: "-20px",
+              position: "relative",
+              left: "320px",
+            }}
+          />
+          <h3 style={{ position: "relative", left: "260px" }}>
+            SITIO RESPONSIVE{" "}
+          </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Adapta tu negocio a la era mobile first con un sitio web que permita
             a los usuarios acceder desde cualquier dispositivo móvil sin
@@ -28,8 +36,14 @@ function Agencia() {
           className="article"
           style={{ width: "47.25%", marginTop: "50px" }}
         >
-          <GoVerified style={{ marginBottom: "-20px" }} />
-          <h3>E-COMMERCE </h3>
+          <GoVerified
+            style={{
+              marginBottom: "-20px",
+              position: "relative",
+              left: "320px",
+            }}
+          />
+          <h3 style={{ position: "relative", left: "260px" }}>E-COMMERCE </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Muestra tus productos en una vidriera online que se destaque en
             celulares con formas de pago rápidas y seguras.
@@ -41,8 +55,16 @@ function Agencia() {
           className="article"
           style={{ width: "47.25%", marginTop: "50px" }}
         >
-          <GoVerified style={{ marginBottom: "-20px" }} />
-          <h3>POSICIONAMIENTO </h3>
+          <GoVerified
+            style={{
+              marginBottom: "-20px",
+              position: "relative",
+              left: "320px",
+            }}
+          />
+          <h3 style={{ position: "relative", left: "260px" }}>
+            POSICIONAMIENTO{" "}
+          </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Posiciona en la primera página de google con las palabras claves más
             comerciales del rubro sin pagar anuncios digitales.
@@ -52,8 +74,16 @@ function Agencia() {
           className="article"
           style={{ width: "47.25%", marginTop: "50px" }}
         >
-          <GoVerified style={{ marginBottom: "-20px" }} />
-          <h3>ANUNCIOS ONLINE</h3>
+          <GoVerified
+            style={{
+              marginBottom: "-20px",
+              position: "relative",
+              left: "320px",
+            }}
+          />
+          <h3 style={{ position: "relative", left: "260px" }}>
+            ANUNCIOS ONLINE
+          </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Promociona tus productos en google, facebook e instagram con
             campañas segmentadas hacia el público objetivo más conveniente.

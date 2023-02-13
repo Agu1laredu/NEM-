@@ -5,15 +5,15 @@ function Banner() {
   return (
     <div className="Banner">
       <section className="publicitario">
-        <b className="b" style={{ color: "#3b3742", marginLeft: "-200px" }}>
+        <b className="b" style={{ color: "#3b3742", marginLeft: "150px" }}>
           EMPRESA DE SOFTWARE{" "}
         </b>
-        <h2 className="nem" style={{ color: "#fff8e1", marginLeft: "-340px" }}>
+        <h2 className="nem" style={{ color: "#fff8e1", marginLeft: "150px" }}>
           NEM{" "}
         </h2>
         <h2
           className="argentina"
-          style={{ color: "#3b3742", marginLeft: "-250px" }}
+          style={{ color: "#3b3742", marginLeft: "150px" }}
         >
           ARGENTINA
         </h2>
