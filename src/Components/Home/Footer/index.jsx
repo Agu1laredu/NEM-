@@ -55,19 +55,6 @@ function Footer() {
           >
             Santa Fe
           </b>
-          <br />
-          <b
-            style={{
-              position: "relative",
-              top: "35px",
-              left: "-35px",
-              color: "#ede1df",
-            }}
-          >
-            Coronda
-            <br />
-            Int.Armando Gimenez 1552
-          </b>
         </div>
       </div>
       <Footer2 />
