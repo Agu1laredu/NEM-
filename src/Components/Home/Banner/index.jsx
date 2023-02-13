@@ -22,7 +22,7 @@ function Banner() {
           para agilizar procesos que aumenten la productividad y las ventas.
         </p>
 
-        <button>LEER MÀS</button>
+        <button style={{ marginLeft: "290px", marginTop: '40px'}}>LEER MÀS</button>
       </section>
       <section className="ilustracion ">
         <img src={BannerImg} alt=""  />

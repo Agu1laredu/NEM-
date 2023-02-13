@@ -7,13 +7,14 @@ import {
   AiOutlineCluster,
   AiOutlineStock,
   AiOutlineSound,
+  AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 
 function Servicios() {
   return (
     <div
       className="SoftwareInfo"
-      style={{ backgroundColor: "#f7f7f7", height: "1300px" }}
+      style={{ backgroundColor: "#f7f7f7", height: "1500px" }}
     >
       <div style={{ position: "relative", top: "40px" }}>
         <h1 style={{ textAlign: "center" }}>SERVICIOS</h1>
@@ -40,7 +41,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>SOFTWARE</h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>SOFTWARE</h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Desarrollo de programas a medida con agregado de nuevas funciones y
             mantenimiento.
@@ -56,7 +57,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "320px" }}>APPS </h3> */}
+          <h3 style={{ position: "relative", left: "320px" }}>APPS </h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Desarrollo de apps multiplataforma Android y Apple con base de datos
             sincronizados.
@@ -74,7 +75,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "280px" }}>E-COMMERCE</h3> */}
+          <h3 style={{ position: "relative", left: "280px" }}>E-COMMERCE</h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Tienda online adaptada a móviles con protocolo de seguridad,
             configuración de pagos y envíos.
@@ -90,7 +91,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>SITIO WEB </h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>SITIO WEB </h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Registro de dominio, administración de hosting y diseño adaptado a
             celulares.
@@ -108,7 +109,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>CHAT BOT</h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>CHAT BOT</h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Instalación y configuración con atención al cliente las 24 horas.
             Soporte técnico.
@@ -124,7 +125,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>REDES ADS </h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>REDES ADS </h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Campañas integradas en Redes Sociales. Facebook e Instagram con
             WhatsApp Business.
@@ -142,7 +143,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>AGENCIA SEO</h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>AGENCIA SEO</h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Evaluación de las palabras claves rentables con plan de trabajo e
             informe mensual. Resultados duraderos.
@@ -158,7 +159,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}>GOOGLE ADS </h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}>GOOGLE ADS </h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
             Campañas publicitarias profesionales con público segmentado y
             optimización diaria. Informe mensual.
@@ -167,7 +168,7 @@ function Servicios() {
       </div>
       <div style={{ display: "flex" }}>
         <article className="articuloServicio" style={{ marginTop: "100px" }}>
-          <AiOutlineStock
+          <AiOutlineFundProjectionScreen
             style={{
               marginBottom: "-20px",
               position: "relative",
@@ -176,7 +177,7 @@ function Servicios() {
               color: "#0096d5",
             }}
           />
-          {/* <h3 style={{ position: "relative", left: "300px" }}> SHOPPING</h3> */}
+          <h3 style={{ position: "relative", left: "300px" }}> SHOPPING</h3>
           <p style={{ position: "relative", top: "60px", left: "50px" }}>
           Configuración de tienda online dentro de Facebook y de Instagram Shopping para incrementar las ventas.
           </p>
