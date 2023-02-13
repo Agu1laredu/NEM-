@@ -2,7 +2,7 @@ import { GoVerified } from "react-icons/go";
 
 function Agencia() {
   return (
-    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" }}>
+    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" , height: '600px'}}>
       <div style={{ position: "relative", top: "40px" }}>
         <h1 style={{ textAlign: "center" }}>AGENCIA</h1>
         <p style={{ position: "relative", left: "350px", top: "2px" }}>

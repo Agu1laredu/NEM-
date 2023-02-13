@@ -1,5 +1,6 @@
 import "./Banner.css";
 import BannerImg from "./assets/th.jpg";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -22,10 +23,13 @@ function Banner() {
           para agilizar procesos que aumenten la productividad y las ventas.
         </p>
 
-        <button style={{ marginLeft: "290px", marginTop: '40px'}}>LEER MÀS</button>
+        <button style={{ marginLeft: "290px", marginTop: "40px" }}>
+          {" "}
+          <Link to={"/Nosotros"} style={{color: 'black'}}>LEER MÀS</Link>
+        </button>
       </section>
       <section className="ilustracion ">
-        <img src={BannerImg} alt=""  />
+        <img src={BannerImg} alt="" />
       </section>
     </div>
   );

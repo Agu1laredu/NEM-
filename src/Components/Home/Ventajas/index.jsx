@@ -2,7 +2,7 @@ import { AiFillLike } from "react-icons/ai";
 
 function Ventajas() {
   return (
-    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" }}>
+    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" , height: '700px', marginBottom: '-20px'}}>
       <div style={{ position: "relative", top: "40px" }}>
         <h2 style={{ textAlign: "center" }}>VENTAJAS</h2>
         <p style={{ position: "relative", left: "350px", top: "2px" }}>
