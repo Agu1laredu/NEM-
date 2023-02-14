@@ -24,7 +24,7 @@ function Ventajas() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>MENOR GASTO </h3>
+          <h3 style={{ position: "relative", left: "260px", width: "30%"  }}>MENOR GASTO </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Poner en marcha un software a medida necesita de una buena inversión
             inicial, pero cuando comienza a trabajar se recupera lo invertido en
@@ -43,7 +43,7 @@ function Ventajas() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>
+          <h3 style={{ position: "relative", left: "260px" , width: "30%" }}>
             AHORRO DE TIEMPO{" "}
           </h3>
           <p style={{ position: "relative", top: "10px" }}>
@@ -65,7 +65,7 @@ function Ventajas() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>INTEGRACIÓN </h3>
+          <h3 style={{ position: "relative", left: "260px", width: "30%"  }}>INTEGRACIÓN </h3>
           <p style={{ position: "relative", top: "10px" }}>
             El software a medida es una gran solución para la integración. Las
             empresas que utilizan varios programas pueden disfrutar de los
@@ -84,7 +84,7 @@ function Ventajas() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>FLEXIBILIDAD</h3>
+          <h3 style={{ position: "relative", left: "260px" , width: "30%" }}>FLEXIBILIDAD</h3>
           <p style={{ position: "relative", top: "10px" }}>
             Los programas a medida pueden ser modificados de acuerdo a las
             necesidades de la empresa. El software evoluciona para satisfacer

@@ -2,9 +2,12 @@ import { GoVerified } from "react-icons/go";
 
 function Agencia() {
   return (
-    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" , height: '600px'}}>
+    <div
+      className="SoftwareInfo"
+      style={{ backgroundColor: "#f7f7f7", height: "600px" }}
+    >
       <div style={{ position: "relative", top: "40px" }}>
-        <h1 style={{ textAlign: "center" }}>AGENCIA</h1>
+        <h2 style={{ textAlign: "center" }}>AGENCIA</h2>
         <p style={{ position: "relative", left: "350px", top: "2px" }}>
           Servicios de marketing digital que conectan a tu empresa con
           potenciales clientes.
@@ -23,7 +26,7 @@ function Agencia() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>
+          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
             SITIO RESPONSIVE{" "}
           </h3>
           <p style={{ position: "relative", top: "10px" }}>
@@ -43,7 +46,9 @@ function Agencia() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>E-COMMERCE </h3>
+          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
+            E-COMMERCE{" "}
+          </h3>
           <p style={{ position: "relative", top: "10px" }}>
             Muestra tus productos en una vidriera online que se destaque en
             celulares con formas de pago rápidas y seguras.
@@ -62,7 +67,7 @@ function Agencia() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>
+          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
             POSICIONAMIENTO{" "}
           </h3>
           <p style={{ position: "relative", top: "10px" }}>
@@ -81,7 +86,7 @@ function Agencia() {
               left: "320px",
             }}
           />
-          <h3 style={{ position: "relative", left: "260px" }}>
+          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
             ANUNCIOS ONLINE
           </h3>
           <p style={{ position: "relative", top: "10px" }}>

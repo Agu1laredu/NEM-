@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter , RouterProvider} from "react-router-dom";
-import Home from "./Components/Home/index.jsx";
-import Nosotros from "./Components/Nosotros/index.jsx";
-import Servicios from "./Components/Servicios/index.jsx";
+import Home from "./Pages/Home/index.jsx";
+import Nosotros from "./Pages/Nosotros/index.jsx";
+import Servicios from "./Pages/Servicios/index.jsx";
+import Contacto from "./Pages/Contacto/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/Servicios",
     element: <Servicios />,
+  },
+  {
+    path: "/Contacto",
+    element: <Contacto />,
   },
 ]);
 
