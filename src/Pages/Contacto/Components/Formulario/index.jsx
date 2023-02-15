@@ -4,21 +4,11 @@ function Formulario() {
   return (
     <div
       className="Formulario"
-      style={{ backgroundColor: "#f7f7f7", height: "650px" }}
+      style={{ backgroundColor: "#f7f7f7", height: "650px",marginTop: '-50px' }}
     >
       <div>
         <h3 style={{ position: "relative", top: "40px", textAlign: "center" }}>
-          ¿NECESITAS AYUDA?
-        </h3>
-        <h3
-          style={{
-            color: "white",
-            position: "relative",
-            top: "40px",
-            textAlign: "center",
-          }}
-        >
-          ESCRÍBENOS
+        ESCRÍBENOS
         </h3>
         <p style={{ position: "relative", top: "40px", left: "350px" }}>
           Empresa de software con experiencia. Soluciones a medida. Solicita un
