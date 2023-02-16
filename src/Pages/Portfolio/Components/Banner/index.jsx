@@ -46,22 +46,11 @@ function Banner() {
       {test.map(({ id, cagetory, texto, Imagen, Titulo }) => (
         <section key={id} className="trabajo">
           <div>
-            <h2
-              className="nem"
-              style={{ color: "#0096d5", marginLeft: "150px" }}
-            >
-              {cagetory}
-            </h2>
-            <h2
-              className="argentina"
-              style={{ color: "#3b3742", marginLeft: "150px" }}
-            >
-              {Titulo}
-            </h2>
+            <h2 className="category">{cagetory}</h2>
+            <h2 className="Titulo">{Titulo}</h2>
             <p>{texto}</p>
 
-            <button style={{ marginLeft: "290px", marginTop: "40px" }}>
-              {" "}
+            <button>
               <Link to={"/Nosotros"} style={{ color: "black" }}>
                 VER TRABAJO
               </Link>

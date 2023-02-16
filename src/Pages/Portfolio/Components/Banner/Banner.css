@@ -21,13 +21,17 @@
   top: 100px;
   left: -4px;
 }
-.nem {
+ .category {
   position: relative;
   top: 110px;
+  color: #0096d5;
+  margin-left: 150px;
 }
-.argentina {
+.Titulo {
   position: relative;
   top: 120px;
+  color: #3b3742;
+  margin-left: 150px;
 }
 
 .ilustracion {
@@ -47,7 +51,7 @@ p {
 button {
   position: relative;
   left: -145px;
-  top: 140px;
+  top: 200px;
   cursor: pointer;
   background-color: #fff8e1;
   border-color: #fff8e1;
@@ -57,9 +61,11 @@ button {
   border-radius: 20px;
   font-size: 10px;
   font-weight: 400;
+  margin-left: 290px;
 }
 
 button:hover {
+  width: 200px;
   background-color: #848385;
   border-color: #1e1c21;
   transition: 1s;
