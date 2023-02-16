@@ -11,7 +11,7 @@ function Footer() {
           left: "520px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
       <BsFacebook
@@ -20,7 +20,7 @@ function Footer() {
           left: "585px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
       <AiFillInstagram
@@ -29,7 +29,7 @@ function Footer() {
           left: "650px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
     </div>
