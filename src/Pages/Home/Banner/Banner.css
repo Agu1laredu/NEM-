@@ -1,4 +1,3 @@
-
 /* Baner del home */
 .banner {
   display: flex;
@@ -22,22 +21,33 @@
 
 .banner .banner__Publicitario .b {
   color: "#3b3742";
+  position: relative;
+  left: 150px;
+  top: 50px;
 }
 
 .banner .banner__Publicitario p {
   width: 60%;
+  position: relative;
+  top: 50px;
 }
 
 .banner .banner__Publicitario .banner__Publicitario--Container-Nem {
   color: #fff8e1;
+  position: relative;
+  left: 150px;
+  top: 50px;
 }
 
 .banner .banner__Publicitario .banner__Publicitario--Container-Argentina {
   color: #3b3742;
+  position: relative;
+  left: 150px;
+  top: 50px;
 }
 
 /* Banner de ilustracion(imagen) */
-.banner__Ilustracion{
+.banner__Ilustracion {
   width: 50%;
 }
 
@@ -46,7 +56,6 @@
   object-fit: cover;
   height: 100%;
 }
-
 
 /* Boton para ver mas */
 .btn {
@@ -74,16 +83,18 @@
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Montserrat',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  position: relative;
+  top: 50px;
+  right: 95px;
 }
 
 .btn:hover,
 .btn:focus {
   color: #fff;
   outline: 0;
-} 
+}
 
 .third {
   border-color: #3b3742;

@@ -11,7 +11,7 @@ function Banner() {
             EMPRESA DE SOFTWARE{" "}
           </b>
           <h2 className="banner__Publicitario--Container-Nem">
-            NEM{" "}
+            NEM TECHNOLOGIES  {" "}
           </h2>
           <h2 className="banner__Publicitario--Container-Argentina">
             ARGENTINA
@@ -22,7 +22,7 @@ function Banner() {
           </p>
           <button class="btn third">
             {" "}
-            <Link to={"/Nosotros"}>LEER MÀS</Link>
+            <Link to={"/Nosotros"} style={{textDecoration: 'none', color: 'white'}}>LEER MÀS</Link>
           </button>
         </div>
       </section>

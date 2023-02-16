@@ -1,4 +1,4 @@
-import "./infosoft.css";
+import "./Infosoft.css";
 
 import { GoVerified } from "react-icons/go";
 

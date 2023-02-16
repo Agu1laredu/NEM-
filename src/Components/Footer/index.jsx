@@ -2,7 +2,6 @@ import { AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsFillPinFill } from "react-icons/bs";
 import Footer2 from "./Components/index.jsx";
-import "./footer.css"
 
 function Footer() {
   return (

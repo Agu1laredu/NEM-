@@ -28,9 +28,11 @@
 
 .header__Menu .header__Menu--Link {
   margin: 0 1rem;
+  text-decoration: none;
+  color: white;
 }
 
 .header__Menu .header__Menu--Link:hover {
-  color: rgb(213, 213, 218);
+  color: rgb(153, 153, 155);
   transition: 2s;
 }
