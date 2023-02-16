@@ -1,0 +1,131 @@
+/* ----- Seccion de service dentro de la pagina Home ----- */
+
+/* Es necesario normalizar los estilos por defecto para poder incorporar estilos sin afectar al sitio completo de la siguiente manera: */
+
+/* *::after,
+*::before,
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+
+.agencia {
+    background-color: #f7f7f7;
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: 10vh repeat(2,300px);
+    grid-template-areas: 
+    " description "
+    " service "
+    " seo "
+    ;
+}
+
+/* ----- Seccion de descripcion dentro de la pagina Home ----- */
+.agencia .description {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+}
+
+.agencia .description .description__Title {
+    margin: 2rem auto 0;
+}
+
+.agencia .description .description__Paragraph {
+    margin: 0 auto;
+}
+
+
+/* ----- Seccion de service dentro de la pagina Home ----- */
+.agencia .service {
+    grid-area: service;
+    display: flex;
+}
+
+.agencia .service .service__Responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.agencia .service .service__Responsive .service__Responsive--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.agencia .service .service__Responsive .service__Responsive--Paragraph {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+/* ----- */
+
+.agencia .service .service__Ecommerce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.agencia .service .service__Ecommerce .service__Ecommerce--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+.agencia .service .service__Ecommerce .service__Ecommerce--Paragraph{
+    width: 70%;
+    margin: 2rem auto;
+}
+
+
+
+
+/* ----- Seccion de service E-Commerce dentro de la pagina Home ----- */
+.agencia .serviceSeo{
+    grid-area: seo;
+    display: flex;
+}
+
+.agencia .serviceSeo .serviceSeo__Positioning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Paragraph {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+/* ----- */
+
+.agencia .serviceSeo .serviceSeo__Advertisements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.agencia .serviceSeo .serviceSeo__Advertisements--Container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+.agencia .serviceSeo .serviceSeo__Advertisements--Paragraph{
+    width: 70%;
+    margin: 2rem auto;
+}

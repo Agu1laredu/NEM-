@@ -1,1 +1,99 @@
 
+/* Section Software */
+.softwareInfo{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "description"
+    "ERPyCRM"
+    "SGAyRRHH"
+    "MEDIDAyBOT";
+}
+/* Description */
+.softwareInfo .softwareInfo__Desciption{
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ERP y CRM */
+.softwareInfo .softwareInfo__ERPyCRM{
+    grid-area: ERPyCRM;
+    display: flex;
+    margin: 1rem;
+}
+.softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
+    width: 70%;
+}
+.softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
+    width: 70%;
+}
+
+/* SGA y RRHH */ 
+.softwareInfo .softwareInfo__SGAyRRHH{
+    grid-area: SGAyRRHH;
+    display: flex;
+    margin: 1rem;
+}
+.softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; 
+}
+.softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
+    width: 70%;
+}
+.softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
+    width: 70%;
+}
+
+/* MEDIA y BOT */
+.softwareInfo .softwareInfo__MEDIDAyBOT{
+    grid-area: MEDIDAyBOT;
+    display: flex;
+    margin: 1rem;
+}
+.softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p{
+    width: 70%;
+}
+.softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p{
+    width: 70%;
+}
