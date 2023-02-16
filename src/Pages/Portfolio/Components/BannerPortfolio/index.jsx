@@ -1,7 +1,7 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
 
-const test = [
+const Trabajos = [
   {
     id: 10,
     cagetory: "01",
@@ -18,8 +18,7 @@ const test = [
     texto:
       "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
     Imagen:
-    "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
-
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
   },
   {
     id: 30,
@@ -28,8 +27,7 @@ const test = [
     texto:
       "Estrategia SEO para alcanzar la primera página de google con las keywords más rentables. ",
     Imagen:
-    "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-01.png?w=800&ssl=1",
-
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-01.png?w=800&ssl=1",
   },
   {
     id: 40,
@@ -42,10 +40,10 @@ const test = [
   },
 ];
 
-function Banner() {
+function Portfolio() {
   return (
     <div className="BannerPortfolio">
-      {test.map(({ id, cagetory, texto, Imagen, Titulo }) => (
+      {Trabajos.map(({ id, cagetory, texto, Imagen, Titulo }) => (
         <section key={id} className="trabajo">
           <div>
             <h2 className="category">{cagetory}</h2>
@@ -65,4 +63,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default Portfolio;

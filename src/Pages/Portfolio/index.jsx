@@ -1,5 +1,5 @@
 import Headers from "../../Components/Headers/index.jsx";
-import Banner from "./Components/Banner/index.jsx";
+import Banner from "./Components/BannerPortfolio/index.jsx";
 import Ventajas from "./Components/Ventajas/index.jsx";
 import Formulario from "./Components/Formulario/index.jsx";
 import Footer from "../../Components/Footer/index.jsx";
