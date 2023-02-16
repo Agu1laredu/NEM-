@@ -7,9 +7,9 @@ import imagenCuatro from "./assets/maxresdefault.jpg";
 function NoTransitionExample() {
   return (
     <div id="carouselExample" className="carousel slide">
-      <div className="carousel-inner">
+      <div className="carouselExample__Inner">
 
-        <div className="carousel-item" style={{ display: "flex" }}>
+        <div className="carouselExample__Inner--Item" style={{ display: "flex" }}>
 
           <img src={imagenTres} className="d-block w-100" alt="..." />
           <img src={imagenDos} className="d-block w-100" alt="..." />
