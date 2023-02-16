@@ -10,7 +10,7 @@ function Banner() {
           EMPRESA DE SOFTWARE{" "}
         </b>
         <h2 className="nem" style={{ color: "#fff8e1", marginLeft: "150px" }}>
-          NEM{" "}
+          NEM TECHNOLOGIES{" "}
         </h2>
         <h2
           className="argentina"
@@ -25,7 +25,9 @@ function Banner() {
 
         <button style={{ marginLeft: "290px", marginTop: "40px" }}>
           {" "}
-          <Link to={"/Nosotros"} style={{color: 'black'}}>LEER MÀS</Link>
+          <Link to={"/Nosotros"} style={{ color: "black" }}>
+            LEER MÀS
+          </Link>
         </button>
       </section>
       <section className="ilustracion ">

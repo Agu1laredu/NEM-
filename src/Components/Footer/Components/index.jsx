@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 function Footer() {
   return (
     <div style={{ display: "flex", height: "50px" }}>
-      <p style={{ position: "relative", top: "5px" }}>@NEM 2023</p>
+      <p style={{ position: "relative", top: "5px" }}>@NEM TECHNOLOGIES 2023</p>
       <BsTwitter
         style={{
           position: "relative",

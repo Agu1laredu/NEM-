@@ -48,7 +48,7 @@ p {
   font-weight: 400;
 }
 
-button {
+.Button {
   position: relative;
   left: -145px;
   top: 200px;
@@ -64,7 +64,7 @@ button {
   margin-left: 290px;
 }
 
-button:hover {
+.Button:hover {
   width: 200px;
   background-color: #848385;
   border-color: #1e1c21;

@@ -1,8 +1,4 @@
 import "./Banner.css";
-import Camion from "./Assets/trabajo-02.webp";
-import Dvigi from "./Assets/trabajo-03.webp";
-import Ranstad from "./Assets/trabajo-01.webp";
-import Megazine from "./Assets/trabajo-04.webp";
 import { Link } from "react-router-dom";
 
 const test = [
@@ -12,7 +8,8 @@ const test = [
     Titulo: " MUVIN APP - LOGÍSTICA AGROINDUSTRIAL",
     texto:
       "Software de gestión logística que conecta a todos los actores de la cadena mediante la georreferenciación. ",
-    Imagen: { Camion },
+    Imagen:
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-02.png?w=800&ssl=1",
   },
   {
     id: 20,
@@ -20,7 +17,9 @@ const test = [
     Titulo: " DVIGI S.A - CRM A MEDIDA",
     texto:
       "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
-    Imagen: { Dvigi },
+    Imagen:
+    "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
+
   },
   {
     id: 30,
@@ -28,7 +27,9 @@ const test = [
     Titulo: "RANDSTAD - PLAN DE POSICIONAMIENTO WEB",
     texto:
       "Estrategia SEO para alcanzar la primera página de google con las keywords más rentables. ",
-    Imagen: { Ranstad },
+    Imagen:
+    "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-01.png?w=800&ssl=1",
+
   },
   {
     id: 40,
@@ -36,7 +37,8 @@ const test = [
     Titulo: " COMUNICAR SALUD - MAGAZINE DIGITAL",
     texto:
       "Revista 100% compatible con celulares, autoadministrable y con esquema de navegación adaptado al medio.  ",
-    Imagen: { Megazine },
+    Imagen:
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-04.png?w=800&ssl=1",
   },
 ];
 
@@ -50,10 +52,8 @@ function Banner() {
             <h2 className="Titulo">{Titulo}</h2>
             <p>{texto}</p>
 
-            <button>
-              <Link to={"/Nosotros"} style={{ color: "black" }}>
-                VER TRABAJO
-              </Link>
+            <button className="Button">
+              <Link style={{ color: "black" }}>VER TRABAJO</Link>
             </button>
           </div>
           <section>
