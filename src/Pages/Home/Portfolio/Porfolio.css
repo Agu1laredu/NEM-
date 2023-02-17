@@ -1,21 +1,20 @@
-.carousel-item {
-  margin-top: 100px;
-  display: flex;
-  overflow-y: auto;
-}
-.carousel-item::-webkit-scrollbar {
-    width: 200px;         
-  }
-
-
-.d-block {
-  cursor: pointer;
-  border-radius: 30px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  align-items: center;
-  justify-content: center;
-}
+/* .carousel-item { */
+/*   margin-top: 100px; */
+/*   display: flex; */
+/*   overflow-y: auto; */
+/* } */
+/* .carousel-item::-webkit-scrollbar { */
+/*   width: 200px;          */
+/* } */
+/**/
+/* .d-block { */
+/*   cursor: pointer; */
+/*   border-radius: 30px; */
+/*   margin-right: 100px; */
+/*   margin-bottom: 50px; */
+/*   height: 400px; */
+/*   background-size: cover; */
+/*   background-position: center; */
+/*   align-items: center; */
+/*   justify-content: center; */
+/* } */
