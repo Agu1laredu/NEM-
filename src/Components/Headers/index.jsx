@@ -4,30 +4,29 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="Header">
-      <div className="Logo">
+    <div className="header">
+      <div className="header__Logo">
         <Link to={"/"}>
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{ height: "200px", width: "200px", cursor: "pointer" }}
-          />
+          <img className="header__Logo--Img" src={Logo} alt="Logo" />
         </Link>
       </div>
-      <div className="menu">
-        <li>
-          <Link to={"/"}>INICIO</Link>
-        </li>
-        <li>
-          <Link to={"/Nosotros"}>NOSOTROS</Link>
-        </li>
-        <li>
-          <Link to={"/Servicios"}>SERVICIOS</Link>
-        </li>
-        <li>PORTFOLIO</li>
-        <li>
-          <Link to={"/Contacto"}>CONTACTO</Link>
-        </li>
+
+      <div className="header__Menu">
+        <Link className="header__Menu--Link" to={"/"}>
+          INICIO
+        </Link>
+        <Link className="header__Menu--Link" to={"/Nosotros"}>
+          NOSOTROS
+        </Link>
+        <Link className="header__Menu--Link" to={"/Servicios"}>
+          SERVICIOS
+        </Link>
+        <Link className="header__Menu--Link" to={"/Portfolio"}>
+          PORTFOLIO
+        </Link>
+        <Link className="header__Menu--Link" to={"/Contacto"}>
+          CONTACTO
+        </Link>
       </div>
     </div>
   );

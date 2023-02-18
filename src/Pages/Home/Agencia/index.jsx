@@ -1,99 +1,72 @@
 import { GoVerified } from "react-icons/go";
+import "./agencia.css"
+
 
 function Agencia() {
   return (
-    <div
-      className="SoftwareInfo"
-      style={{ backgroundColor: "#f7f7f7", height: "600px" }}
-    >
-      <div style={{ position: "relative", top: "40px" }}>
-        <h2 style={{ textAlign: "center" }}>AGENCIA</h2>
-        <p style={{ position: "relative", left: "350px", top: "2px" }}>
+    <div className="agencia" >
+      <div className="description">
+        <h1 className="description__Title">AGENCIA</h1>
+        <p className="description__Paragraph">
           Servicios de marketing digital que conectan a tu empresa con
           potenciales clientes.
         </p>
       </div>
 
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            SITIO RESPONSIVE{" "}
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+      <div className="service">
+
+        <article className="service__Responsive">
+          <div className="service__Responsive--Container">
+            <GoVerified />
+            <h3> SITIO RESPONSIVE{" "}</h3>
+          </div>
+          <p className="service__Responsive--Paragraph">
             Adapta tu negocio a la era mobile first con un sitio web que permita
             a los usuarios acceder desde cualquier dispositivo móvil sin
             dificultades.
           </p>
         </article>
+
         <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
+          className="service__Ecommerce"
         >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            E-COMMERCE{" "}
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+          <div className=" service__Ecommerce--Container">
+            <GoVerified />
+            <h3>
+              E-COMMERCE
+            </h3>
+          </div>
+          <p className="service__Ecommerce--Paragraph">
             Muestra tus productos en una vidriera online que se destaque en
             celulares con formas de pago rápidas y seguras.
           </p>
         </article>
       </div>
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            POSICIONAMIENTO{" "}
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+
+      <div className="serviceSeo">
+
+        <article className="serviceSeo__Positioning">
+          <div className="serviceSeo__Positioning--Container">
+            <GoVerified />
+            <h3> POSICIONAMIENTO{" "}</h3>
+          </div>
+          <p className="serviceSeo__Positioning--Paragraph">
             Posiciona en la primera página de google con las palabras claves más
             comerciales del rubro sin pagar anuncios digitales.
           </p>
         </article>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            ANUNCIOS ONLINE
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+
+        <article className="serviceSeo__Advertisements">
+          <div className="serviceSeo__Advertisements--Container">
+            <GoVerified />
+            <h3>ANUNCIOS ONLINE</h3>
+          </div>
+          <p className="serviceSeo__Advertisements--Paragraph">
             Promociona tus productos en google, facebook e instagram con
             campañas segmentadas hacia el público objetivo más conveniente.
           </p>
         </article>
+        
       </div>
     </div>
   );

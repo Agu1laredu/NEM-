@@ -1,12 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter , RouterProvider} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Pages/Home/index.jsx";
 import Nosotros from "./Pages/Nosotros/index.jsx";
 import Servicios from "./Pages/Servicios/index.jsx";
 import Contacto from "./Pages/Contacto/index.jsx";
+import Portfolio from "./Pages/Portfolio/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,16 +23,19 @@ const router = createBrowserRouter([
     element: <Servicios />,
   },
   {
+    path: "/Portfolio",
+    element: <Portfolio />,
+  },
+  {
     path: "/Contacto",
     element: <Contacto />,
   },
 ]);
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router= {router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

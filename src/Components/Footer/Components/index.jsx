@@ -4,14 +4,14 @@ import { AiFillInstagram } from "react-icons/ai";
 function Footer() {
   return (
     <div style={{ display: "flex", height: "50px" }}>
-      <p style={{ position: "relative", top: "5px" }}>@NEM 2023</p>
+      <p style={{ position: "relative", top: "5px" }}>@NEM TECHNOLOGIES 2023</p>
       <BsTwitter
         style={{
           position: "relative",
           left: "520px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
       <BsFacebook
@@ -20,7 +20,7 @@ function Footer() {
           left: "585px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
       <AiFillInstagram
@@ -29,7 +29,7 @@ function Footer() {
           left: "650px",
           top: "10px",
           fontSize: "25",
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
       />
     </div>

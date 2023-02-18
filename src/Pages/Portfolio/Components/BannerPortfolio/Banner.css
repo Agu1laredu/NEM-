@@ -1,0 +1,72 @@
+.BannerPortfolio {
+  margin: 10px;
+}
+
+.trabajo {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  margin-left: 100px;
+}
+.imagenTrabajo {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+}
+
+.b {
+  position: relative;
+  top: 100px;
+  left: -4px;
+}
+ .category {
+  position: relative;
+  top: 110px;
+  color: #0096d5;
+  margin-left: 150px;
+}
+.Titulo {
+  position: relative;
+  top: 120px;
+  color: #3b3742;
+  margin-left: 150px;
+}
+
+.ilustracion {
+  width: 50%;
+  height: 525px;
+}
+p {
+  position: relative;
+  top: 130px;
+  text-align: justify;
+  margin-left: 150px;
+  color: #3b3742;
+  width: 400px;
+  font-weight: 400;
+}
+
+.Button {
+  position: relative;
+  left: -145px;
+  top: 200px;
+  cursor: pointer;
+  background-color: #fff8e1;
+  border-color: #fff8e1;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 290px;
+}
+
+.Button:hover {
+  width: 200px;
+  background-color: #848385;
+  border-color: #1e1c21;
+  transition: 1s;
+}

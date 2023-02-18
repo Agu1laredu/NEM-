@@ -4,32 +4,30 @@ import { Link } from "react-router-dom";
 
 function Banner() {
   return (
-    <div className="Banner">
-      <section className="publicitario">
-        <b className="b" style={{ color: "#3b3742", marginLeft: "150px" }}>
-          EMPRESA DE SOFTWARE{" "}
-        </b>
-        <h2 className="nem" style={{ color: "#fff8e1", marginLeft: "150px" }}>
-          NEM{" "}
-        </h2>
-        <h2
-          className="argentina"
-          style={{ color: "#3b3742", marginLeft: "150px" }}
-        >
-          ARGENTINA
-        </h2>
-        <p>
-          Nos encargamos de que la inteligencia digital se adapte a tu empresa
-          para agilizar procesos que aumenten la productividad y las ventas.
-        </p>
-
-        <button style={{ marginLeft: "290px", marginTop: "40px" }}>
-          {" "}
-          <Link to={"/Nosotros"} style={{color: 'black'}}>LEER MÀS</Link>
-        </button>
+    <div className="banner">
+      <section className="banner__Publicitario">
+        <div className="banner__Publicitario--Container">
+          <b className="b">
+            EMPRESA DE SOFTWARE{" "}
+          </b>
+          <h2 className="banner__Publicitario--Container-Nem">
+            NEM TECHNOLOGIES  {" "}
+          </h2>
+          <h2 className="banner__Publicitario--Container-Argentina">
+            ARGENTINA
+          </h2>
+          <p>
+            Nos encargamos de que la inteligencia digital se adapte a tu empresa
+            para agilizar procesos que aumenten la productividad y las ventas.
+          </p>
+          <button class="btn third">
+            {" "}
+            <Link to={"/Nosotros"} style={{textDecoration: 'none', color: 'white'}}>LEER MÀS</Link>
+          </button>
+        </div>
       </section>
-      <section className="ilustracion ">
-        <img src={BannerImg} alt="" />
+      <section className="banner__Ilustracion ">
+        <img src={BannerImg} alt="Imagen del banner" />
       </section>
     </div>
   );

@@ -6,61 +6,26 @@ import Footer2 from "./Components/index.jsx";
 function Footer() {
   return (
     <div>
-      <div
-        className="Footer"
-        style={{ display: "flex", height: "200px", backgroundColor: "#343740" }}
-      >
-        <div style={{ width: "200px", margin: "auto" }}>
+      <div className="footer">
+        <div className="footer__Phone">
           <AiFillPhone
-            style={{ color: "#0096d5", position: "relative", left: "10px" }}
+            style={{ color: "#0096d5"}}
           />
-          <b
-            style={{
-              position: "relative",
-              top: "50px",
-              left: "-60px",
-              color: "#ede1df",
-            }}
-          >
-            342-566-7376
-          </b>
+          <b> 342-566-7376 </b>
         </div>
-        <div style={{ width: "200px", margin: "auto" }}>
+
+        <div className="footer__Email">
           <MdEmail
-            style={{ color: "#0096d5", position: "relative", left: "115px" }}
+            style={{ color: "#0096d5"}}
           />
-          <b
-            style={{
-              position: "relative",
-              top: "35px",
-              left: "20px",
-              color: "#ede1df",
-            }}
-          >
-            nemsoftware@hotmail.com
-          </b>
+          <b> nemsoftware@hotmail.com </b>
         </div>
-        <div
-          style={{
-            width: "200px",
-            margin: "auto",
-            position: "relative",
-            top: "-2px",
-          }}
-        >
+
+        <div className="footer__PinFill">
           <BsFillPinFill
-            style={{ color: "#0096d5", position: "relative", left: "140px" }}
+            style={{ color: "#0096d5"}}
           />
-          <b
-            style={{
-              position: "relative",
-              top: "50px",
-              left: "100px",
-              color: "#ede1df",
-            }}
-          >
-            Santa Fe
-          </b>
+          <b> Santa Fe </b>
         </div>
       </div>
       <Footer2 />

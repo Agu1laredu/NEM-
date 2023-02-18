@@ -1,40 +1,38 @@
-.Logo {
-  color: rgb(254, 254, 255);
+.header {
+  height: 10vh;
   display: flex;
-  position: absolute;
-  left: 90px;
-  top: -60px;
-  width: 80px;
-  height: 80px;
-}
-
-.Header {
   background-color: #0096d5;
 }
 
-.menu {
+.header .header__Logo {
+  color: rgb(254, 254, 255);
+  height: 100%;
   width: 40%;
-  display: flex;
-  position: relative;
-  left: 55%;
-  top: 10px;
+  margin: 0 auto;
 }
-li {
-  color: rgb(254, 254, 255);
-  font-weight: 500;
-  list-style: none;
-  margin-left: 30px;
-  margin-bottom: 50px;
-  margin-top: 20px;
+
+.header .header__Logo .header__Logo--Img {
   cursor: pointer;
+  object-fit: cover;
+  width: 200px;
+  height: 100%;
 }
 
-a {
+.header__Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+
+.header__Menu .header__Menu--Link {
+  margin: 0 1rem;
   text-decoration: none;
-  color: rgb(254, 254, 255);
+  color: white;
 }
 
-a:hover {
-  color: rgb(213, 213, 218);
+.header__Menu .header__Menu--Link:hover {
+  color: rgb(153, 153, 155);
   transition: 2s;
 }
