@@ -1,0 +1,47 @@
+.footer {
+  background-color: #343740;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "phone email pinfill";
+}
+.footer__Phone {
+  grid-area: phone;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+}
+.footer__Phone b {
+  margin: 2rem;
+}
+.footer__Email {
+  grid-area: email;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.footer__Email b {
+  margin: 2rem;
+}
+.footer__PinFill {
+  grid-area: pinfill;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+}
+.footer__PinFill b {
+  margin: 2rem;
+}

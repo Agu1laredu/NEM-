@@ -10,7 +10,7 @@ function Formulario() {
         <h3>
           ESCRÍBENOS
         </h3>
-        <p>
+        <p className="P">
           Empresa de software con experiencia. Soluciones a medida. Solicita un
           presupuesto sin compromiso.
         </p>
@@ -34,7 +34,7 @@ function Formulario() {
             placeholder="Celular"
           />
           <textarea placeholder="Mensaje"></textarea>
-          <button className="btn third color">
+          <button id="btnForm" className="btn  third color">
             Enviar
           </button>
         </form>

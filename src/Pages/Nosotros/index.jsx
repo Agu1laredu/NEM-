@@ -5,30 +5,16 @@ import BannerInfo from "./Components/Description/index.jsx";
 import Equipo from "./Components/Equipo/index.jsx";
 import Servicios from "./Components/Servicios/index.jsx";
 import Footer from "../../Components/Footer/index.jsx";
+import "./nosotros.css";
 
 function Nosotros() {
   return (
     <div className="nosotros">
       <Header />
-      <div
-        style={{
-          height: "200px",
-          backgroundColor: "#0096d5",
-          borderTop: "1px solid black",
-        }}
-      >
-        <b
-          style={{
-            position: "relative",
-            top: "60px",
-            left: "300px",
-            fontSize: "50px",
-          }}
-        >
-          NOSOTROS
-        </b>
+      <div className="divNosotros">
+        <b className="BNosotros">NOSOTROS</b>
       </div>
-      <img src={Fondo} alt="" style={{ opacity: "0.7" }} />
+      <img id="nosotrosImg" src={Fondo} alt="" />
       <BannerInfo />
       <Equipo />
       <Servicios />

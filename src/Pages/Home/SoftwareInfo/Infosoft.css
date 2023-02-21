@@ -23,6 +23,11 @@
     display: flex;
     margin: 1rem;
 }
+.P {
+    position: relative;
+    top: 5px;
+    margin: auto;
+}
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP{
     width: 50%;
     display: flex;
@@ -32,6 +37,10 @@
 }
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
+
 }
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM{
     width: 50%;
@@ -42,6 +51,9 @@
 }
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
 }
 
 /* SGA y RRHH */ 
@@ -59,6 +71,9 @@
 }
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
 }
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA{
     width: 50%;
@@ -69,6 +84,9 @@
 }
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
 }
 
 /* MEDIA y BOT */
@@ -86,6 +104,9 @@
 }
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p{
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
 }
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT{
     width: 50%;
@@ -96,4 +117,7 @@
 }
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p{
     width: 70%;
+    position: relative;
+    top: 5px;
+    margin: auto;
 }

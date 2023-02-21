@@ -11,121 +11,141 @@
 } */
 
 .agencia {
-    background-color: #f7f7f7;
-    display: grid;
-    margin-top: 3rem;
-    grid-template-columns: repeat(1,100%);
-    grid-template-rows: 10vh repeat(2,300px);
-    grid-template-areas: 
+  background-color: #e3e1e1;
+  display: grid;
+  height: 800px;
+  margin-top: 3rem;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: 10vh repeat(2, 300px);
+  grid-template-areas:
     " description "
     " service "
-    " seo "
-    ;
+    " seo ";
 }
 
 /* ----- Seccion de descripcion dentro de la pagina Home ----- */
 .agencia .description {
-    grid-area: description;
-    display: flex;
-    flex-direction: column;
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
 }
 
 .agencia .description .description__Title {
-    margin: 2rem auto 0;
+  margin: 2rem auto 0;
 }
 
+.Icon {
+  position: relative;
+  top: -2px;
+  left: 180px;
+}
 .agencia .description .description__Paragraph {
-    margin: 0 auto;
+  position: relative;
+  top: 5px;
+  margin: auto;
 }
-
 
 /* ----- Seccion de service dentro de la pagina Home ----- */
 .agencia .service {
-    grid-area: service;
-    display: flex;
+  grid-area: service;
+  display: flex;
 }
 
 .agencia .service .service__Responsive {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-top: 100px;
 }
 
 .agencia .service .service__Responsive .service__Responsive--Container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .agencia .service .service__Responsive .service__Responsive--Paragraph {
-    width: 70%;
-    margin: 2rem auto;
+  width: 70%;
+  position: relative;
+  top: -50px;
+  margin: auto;
 }
 
 /* ----- */
 
 .agencia .service .service__Ecommerce {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-top: 100px;
 }
 .agencia .service .service__Ecommerce .service__Ecommerce--Container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
 }
-.agencia .service .service__Ecommerce .service__Ecommerce--Paragraph{
-    width: 70%;
-    margin: 2rem auto;
+.agencia .service .service__Ecommerce .service__Ecommerce--Paragraph {
+  width: 70%;
+  position: relative;
+  top: -50px;
+  margin: auto;
 }
-
-
-
 
 /* ----- Seccion de service E-Commerce dentro de la pagina Home ----- */
-.agencia .serviceSeo{
-    grid-area: seo;
-    display: flex;
+.agencia .serviceSeo {
+  grid-area: seo;
+  display: flex;
+  margin-top: 100px;
 }
 
 .agencia .serviceSeo .serviceSeo__Positioning {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
 
-.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Container {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+.agencia
+  .serviceSeo
+  .serviceSeo__Positioning
+  .serviceSeo__Positioning--Container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
 }
 
-.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Paragraph {
-    width: 70%;
-    margin: 2rem auto;
+.agencia
+  .serviceSeo
+  .serviceSeo__Positioning
+  .serviceSeo__Positioning--Paragraph {
+  width: 70%;
+  position: relative;
+  top: -50px;
+  margin: auto;
 }
 
 /* ----- */
 
-.agencia .serviceSeo .serviceSeo__Advertisements{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+.agencia .serviceSeo .serviceSeo__Advertisements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 }
-.agencia .serviceSeo .serviceSeo__Advertisements--Container{
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    margin: 0 auto;
+.agencia .serviceSeo .serviceSeo__Advertisements--Container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
 }
-.agencia .serviceSeo .serviceSeo__Advertisements--Paragraph{
-    width: 70%;
-    margin: 2rem auto;
+.agencia .serviceSeo .serviceSeo__Advertisements--Paragraph {
+  width: 70%;
+  position: relative;
+  top: -50px;
+  margin: auto;
 }

@@ -3,10 +3,10 @@ import "./ventajas.css"
 
 function Ventajas() {
   return (
-    <div className="ventajas" style={{ backgroundColor: "#f7f7f7", height: '700px', marginBottom: '-20px' }}>
+    <div className="ventajas">
       <div className="ventajas__Description">
         <h2>VENTAJAS</h2>
-        <p>
+        <p className="P">
           El desarrollo de programas a medida brinda soluciones que se ajustan a
           las exigencias de cada empresa y a los cambios que surgen con su
           crecimiento.

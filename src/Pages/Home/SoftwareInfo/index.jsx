@@ -7,7 +7,7 @@ function SoftwareInfo() {
     <div className="softwareInfo">
       <div className="softwareInfo__Desciption">
         <h1>SOFTWARE</h1>
-        <p>
+        <p className="P">
           Años de experiencia que nos permiten brindar soluciones a medida para
           empresas, marcas, pymes y emprendedores.
         </p>

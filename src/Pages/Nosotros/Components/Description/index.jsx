@@ -2,16 +2,9 @@ import "./info.css";
 
 function NoTransitionExample() {
   return (
-    <div
-      className="bannerinfo"
-      style={{ position: "relative", top: "-500px", left: "100px" }}
-    >
-      <h2 style={{ position: "relative", top: "50px", left: "150px" }}>
-        INTELIGENCIA DIGITAL A TU MEDIDA
-      </h2>
-      <h5 style={{ position: "relative", top: "120px", left: "150px" }}>
-        EMPRESA DE SOFTWARE
-      </h5>
+    <div className="bannerinfo">
+      <h2 className="h2BannerInfo">INTELIGENCIA DIGITAL A TU MEDIDA</h2>
+      <h5 className="h5BannerInfo">EMPRESA DE SOFTWARE</h5>
       <p>
         Somos una empresa de software a medida con programadores full stack. Nos
         encargamos de que la inteligencia digital se adapte a tu empresa para
@@ -19,7 +12,7 @@ function NoTransitionExample() {
         desarrollamos apps móviles multiplataforma para que tus proyectos se
         acomoden a todos los celulares existentes.
       </p>
-      <h5 style={{ position: "relative", top: "130px", left: "150px" }}>
+      <h5 className="h5BannerInfo" >
         SITIOS Y TIENDAS RESPONSIVE
       </h5>
       <p>
@@ -27,7 +20,7 @@ function NoTransitionExample() {
         tendencia tablet and mobile first. Diseños funcionales y
         autoadministrables para que puedas operar con total independencia.
       </p>
-      <h5 style={{ position: "relative", top: "130px", left: "150px" }}>
+      <h5 className="h5BannerInfo">
         AGENCIA SEO
       </h5>
       <p>
@@ -37,7 +30,7 @@ function NoTransitionExample() {
         SEM, auditoría, consultoría y performance se unen para brindarte uno de
         los servicios más distintivos de la era digital.
       </p>
-      <h5 style={{ position: "relative", top: "130px", left: "150px" }}>
+      <h5 className="h5BannerInfo">
         GOOGLE ADS Y SOCIAL NETWORK
       </h5>
       <p>

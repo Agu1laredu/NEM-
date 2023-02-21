@@ -1,3 +1,4 @@
+import './footer.css';
 import { AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsFillPinFill } from "react-icons/bs";

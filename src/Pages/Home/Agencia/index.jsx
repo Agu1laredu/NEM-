@@ -1,10 +1,9 @@
 import { GoVerified } from "react-icons/go";
-import "./agencia.css"
-
+import "./agencia.css";
 
 function Agencia() {
   return (
-    <div className="agencia" >
+    <div className="agencia">
       <div className="description">
         <h1 className="description__Title">AGENCIA</h1>
         <p className="description__Paragraph">
@@ -14,11 +13,10 @@ function Agencia() {
       </div>
 
       <div className="service">
-
         <article className="service__Responsive">
           <div className="service__Responsive--Container">
-            <GoVerified />
-            <h3> SITIO RESPONSIVE{" "}</h3>
+            <GoVerified className="Icon" />
+            <h3> SITIO RESPONSIVE </h3>
           </div>
           <p className="service__Responsive--Paragraph">
             Adapta tu negocio a la era mobile first con un sitio web que permita
@@ -27,14 +25,10 @@ function Agencia() {
           </p>
         </article>
 
-        <article
-          className="service__Ecommerce"
-        >
+        <article className="service__Ecommerce">
           <div className=" service__Ecommerce--Container">
-            <GoVerified />
-            <h3>
-              E-COMMERCE
-            </h3>
+            <GoVerified className="Icon" />
+            <h3>E-COMMERCE</h3>
           </div>
           <p className="service__Ecommerce--Paragraph">
             Muestra tus productos en una vidriera online que se destaque en
@@ -44,11 +38,10 @@ function Agencia() {
       </div>
 
       <div className="serviceSeo">
-
         <article className="serviceSeo__Positioning">
           <div className="serviceSeo__Positioning--Container">
-            <GoVerified />
-            <h3> POSICIONAMIENTO{" "}</h3>
+            <GoVerified className="Icon" />
+            <h3> POSICIONAMIENTO </h3>
           </div>
           <p className="serviceSeo__Positioning--Paragraph">
             Posiciona en la primera página de google con las palabras claves más
@@ -58,7 +51,7 @@ function Agencia() {
 
         <article className="serviceSeo__Advertisements">
           <div className="serviceSeo__Advertisements--Container">
-            <GoVerified />
+            <GoVerified className="Icon" />
             <h3>ANUNCIOS ONLINE</h3>
           </div>
           <p className="serviceSeo__Advertisements--Paragraph">
@@ -66,7 +59,6 @@ function Agencia() {
             campañas segmentadas hacia el público objetivo más conveniente.
           </p>
         </article>
-        
       </div>
     </div>
   );

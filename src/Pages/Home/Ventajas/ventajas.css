@@ -1,5 +1,7 @@
 /* Seccion sobre ventajas */
 .ventajas{
+    height: 800px;
+    background-color: #cdcbcb;
     display: grid;
     padding: 3rem 0;
     grid-template-columns: repeat(1,100%);
@@ -23,6 +25,10 @@
     grid-area: ventajas1;
     display: flex;
 }
+.P {
+    position: relative;
+    top: 10px;
+}
 .ventajas  .ventajas__PrimerBloque .ventajas__PrimerBloque--Gastos{
     display: flex;
     flex-direction: column;
@@ -33,6 +39,8 @@
 .ventajas  .ventajas__PrimerBloque .ventajas__PrimerBloque--Gastos p {
     width: 70%;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 .ventajas  .ventajas__PrimerBloque .ventajas__PrimerBloque--Tiempo{
     display: flex;
@@ -44,6 +52,8 @@
 .ventajas  .ventajas__PrimerBloque .ventajas__PrimerBloque--Tiempo p {
     width: 70%;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 
 
@@ -62,6 +72,8 @@
 .ventajas  .ventajas__SegundoBloque .ventajas__SegundoBloque--Integracion p {
     width: 70%;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 .ventajas  .ventajas__SegundoBloque .ventajas__SegundoBloque--Flexibilidad{
     display: flex;
@@ -73,6 +85,8 @@
 .ventajas  .ventajas__SegundoBloque .ventajas__SegundoBloque--Flexibilidad p {
     width: 70%;
     margin: 0 auto;
+    position: relative;
+    top: 10px;
 }
 
 

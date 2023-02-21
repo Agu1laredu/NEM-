@@ -1,15 +1,27 @@
-.Equipo { 
-    margin-top: -400px;
+.Equipo {
+  margin-top: -800px;
+  margin-bottom: 200px;
 }
 
 .Equipo h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .Equipo p {
-    text-align: center;
-    position: relative;
-    top: 20px;
-    left: -150px;
-    width: 100%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: -150px;
+  width: 100%;
+}
+
+.divEquipo {
+  display: flex;
+  justify-content: center;
+}
+
+.foto {
+  height: 500px;
+  width: 500px;
+  margin: 60px;
 }

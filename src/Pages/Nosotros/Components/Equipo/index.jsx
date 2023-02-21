@@ -7,10 +7,12 @@ function Equipo() {
   return (
     <div className="Equipo">
       <h2>EQUIPO</h2>
-      <p>«El talento gana partidos, pero el trabajo en equipo gana campeonatos».</p>
-      <div style={{ display: "flex" , justifyContent: 'center'}}>
-        <img src={Eduardo} alt="" className="foto"  style={{height: '300px' , width: '300px', margin: '30px'}}/>
-        <img src={Malena} alt="" className="foto" style={{height: '300px' , width: '300px', margin: '30px'}}/>
+      <p>
+        «El talento gana partidos, pero el trabajo en equipo gana campeonatos».
+      </p>
+      <div className="divEquipo">
+        <img src={Eduardo} alt="" className="foto" />
+        <img src={Malena} alt="" className="foto" />
       </div>
     </div>
   );

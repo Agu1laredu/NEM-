@@ -9,32 +9,20 @@ import {
   AiOutlineSound,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
+import "./servicios.css";
 
 function Servicios() {
   return (
-    <div
-      className="SoftwareInfo"
-      style={{
-        backgroundColor: "#f7f7f7",
-        height: "1500px",
-      }}
-    >
-      <div style={{ position: "relative", top: "40px" }}>
-        <h1 style={{ textAlign: "center" }}>SERVICIOS</h1>
-        <p
-          style={{
-            position: "relative",
-            left: "220px",
-            top: "2px",
-            width: "50%",
-          }}
-        >
+    <div className="SoftwareInfo">
+      <div className="divInfo">
+        <h2 className="h2info">SERVICIOS</h2>
+        <p className="PInfo">
           Brindamos una gama de servicios para conectar a tu empresa con
           potenciales clientes.
         </p>
       </div>
-      <div style={{ display: "flex" }}>
-        <article className="articuloServicio" style={{ marginTop: "100px" }}>
+      <div className="divArticle">
+        <article className="articuloServicio">
           <AiOutlineSetting
             style={{
               marginBottom: "-20px",
