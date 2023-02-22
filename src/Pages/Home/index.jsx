@@ -3,9 +3,9 @@ import Banner from "./Banner/index.jsx";
 import SoftwareInfo from "./SoftwareInfo/index.jsx";
 import Agencia from "./Agencia/index.jsx";
 import Ventajas from './Ventajas/index.jsx';
-import Portfolio from "./Portfolio/index.jsx";
 import Formulario from '../../Components/Formulario/index.jsx';
 import Footer from '../../Components/Footer/index.jsx';
+import NoTransitionExample from "./Portfolio/index.jsx";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Banner />
       <SoftwareInfo />
       <Agencia />
-      <Portfolio />
+      <NoTransitionExample/>
       <Ventajas />
       <Formulario />
       <Footer />

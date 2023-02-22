@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+
 const Trabajos = [
   {
     id: 10,
@@ -47,39 +48,40 @@ const Trabajos = [
   },
 ];
 
+
 function NoTransitionExample() {
-  // const swiper = useSwiper();
-
-  const [, setSwiperRef] = useState(null);
-  // const [index, setIndex] = useState(0);
-
-  // const handleChangeIndex = (type) => {
-  //   if (type === "next") {
-  //   }
-
-  //   if (type === "previous") {
-  //   }
-  // };
-
-  return (
-    <div>
-      <Swiper
-        onSwiper={setSwiperRef}
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={2}
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSlideChange={(e) => console.log(e)}
-      >
-        {Trabajos.map(({ Imagen }) => (
-          <SwiperSlide key={Imagen}>
-            <img id="img" src={Imagen} alt="..." />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
-  );
+    // const swiper = useSwiper();
+  
+    const [, setSwiperRef] = useState(null);
+    // const [index, setIndex] = useState(0);
+  
+    // const handleChangeIndex = (type) => {
+    //   if (type === "next") {
+    //   }
+  
+    //   if (type === "previous") {
+    //   }
+    // };
+  
+    return (
+      <div>
+        <Swiper
+          onSwiper={setSwiperRef}
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={2}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSlideChange={(e) => console.log(e)}
+        >
+          {Trabajos.map(({ Imagen }) => (
+            <SwiperSlide key={Imagen}>
+              <img id="img" src={Imagen} alt="..." />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    );
 }
-
+  
 export default NoTransitionExample;

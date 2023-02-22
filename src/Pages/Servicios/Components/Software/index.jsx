@@ -1,104 +1,108 @@
 import { GoVerified } from "react-icons/go";
+import styled from "styled-components";
+
 
 function Software() {
+  const Line = styled.div`
+    border-bottom: 1px solid black;
+    width: 60%;
+    margin: 10rem auto 0;
+  `
+
+  const MyH3 = styled.h3`
+    font-size: 18px;
+  `
+
+  const FlexContainerRow = styled.div`
+    display: flex;
+    justify-content: center;
+  `
+
+  const FlexContentCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 20vh;
+  `;
+  const FlexItemCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: xx-large;
+  `;
+  const Container = styled.div`
+    padding-bottom: 10rem;
+  `
+
   return (
-    <div className="SoftwareInfo" style={{ height: "600px" }}>
-      <div style={{ position: "relative", top: "40px" }}>
-        <h1 style={{ textAlign: "center" }}>SOFTWARE</h1>
-        <p
-          style={{
-            position: "relative",
-            left: "220px",
-            top: "2px",
-            width: "50%",
-          }}
-        >
+    <Container>
+      <FlexContentCol>
+        <h1>SOFTWARE</h1>
+        <p>
           Ofrecemos soluciones adaptándonos a cada plan de negocio con
           compromiso y dedicación.
         </p>
-      </div>
+      </FlexContentCol>
 
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            OBJETIVO
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+      <FlexContainerRow>
+        <FlexContentCol>
+          <FlexItemCol>
+            <GoVerified />
+            <MyH3>
+              OBJETIVO
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Nuestro objetivo es proporcionarte soluciones cumpliendo con los
             mejores criterios de calidad en software a medida.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            METODOLOGÍA{" "}
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+        <FlexContentCol>
+          <FlexItemCol>
+            <GoVerified />
+            <MyH3>
+              METODOLOGÍA{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Manejamos metodologías rápidas en la proyección, seguimiento y
             codificación del software con personal cualificado.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            DESARROLLO
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol>
+          <FlexItemCol>
+            <GoVerified />
+            <MyH3>
+              DESARROLLO
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Nos orientamos a entender tus necesidades para crear un software
             personalizado que pueda cumplir con los objetivos trazados.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <GoVerified
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%" }}>
-            MANTENIMIENTO
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+        <FlexContentCol>
+          <FlexItemCol>
+            <GoVerified />
+            <MyH3>
+              MANTENIMIENTO
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Ofrecemos soporte técnico de todos los programas creados para que
             puedas operar con tranquilidad y sacarle la máxima rentabilidad.
           </p>
-        </article>
-      </div>
-    </div>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <Line>
+      </Line>
+    </Container>
   );
 }
 

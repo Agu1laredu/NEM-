@@ -38,15 +38,6 @@
   width: 50%;
   height: 525px;
 }
-p {
-  position: relative;
-  top: 130px;
-  text-align: justify;
-  margin-left: 150px;
-  color: #3b3742;
-  width: 400px;
-  font-weight: 400;
-}
 
 .Button {
   position: relative;

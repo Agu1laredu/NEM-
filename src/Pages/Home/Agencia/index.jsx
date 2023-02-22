@@ -19,7 +19,7 @@ function Agencia() {
       <div className="service">
         <article className="service__Responsive" data-aos="zoom-out-right">
           <div className="service__Responsive--Container">
-            <GoVerified className="Icon" />
+            <GoVerified/>
             <h3> SITIO RESPONSIVE </h3>
           </div>
           <p className="service__Responsive--Paragraph">
@@ -31,7 +31,7 @@ function Agencia() {
 
         <article className="service__Ecommerce" data-aos="zoom-out-left">
           <div className=" service__Ecommerce--Container">
-            <GoVerified className="Icon" />
+            <GoVerified />
             <h3>E-COMMERCE</h3>
           </div>
           <p className="service__Ecommerce--Paragraph">

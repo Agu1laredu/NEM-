@@ -2,13 +2,13 @@
 
 /* Es necesario normalizar los estilos por defecto para poder incorporar estilos sin afectar al sitio completo de la siguiente manera: */
 
-/* *::after,
+*::after,
 *::before,
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-} */
+}
 
 .agencia {
   background-color: #e3e1e1;
@@ -34,14 +34,9 @@
   margin: 2rem auto 0;
 }
 
-.Icon {
-  position: relative;
-  top: -2px;
-  left: 180px;
-}
+
+
 .agencia .description .description__Paragraph {
-  position: relative;
-  top: 5px;
   margin: auto;
 }
 
@@ -82,12 +77,14 @@
   width: 50%;
   margin-top: 100px;
 }
+
 .agencia .service .service__Ecommerce .service__Ecommerce--Container {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
 }
+
 .agencia .service .service__Ecommerce .service__Ecommerce--Paragraph {
   width: 70%;
   position: relative;
@@ -109,20 +106,14 @@
   width: 50%;
 }
 
-.agencia
-  .serviceSeo
-  .serviceSeo__Positioning
-  .serviceSeo__Positioning--Container {
+.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Container {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
 }
 
-.agencia
-  .serviceSeo
-  .serviceSeo__Positioning
-  .serviceSeo__Positioning--Paragraph {
+.agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Paragraph {
   width: 70%;
   position: relative;
   top: -50px;
@@ -137,15 +128,135 @@
   justify-content: center;
   width: 50%;
 }
+
 .agencia .serviceSeo .serviceSeo__Advertisements--Container {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
 }
+
 .agencia .serviceSeo .serviceSeo__Advertisements--Paragraph {
   width: 70%;
   position: relative;
   top: -50px;
   margin: auto;
+}
+
+
+
+@media (max-width: 500px) {
+  .agencia {
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      " description "
+      " service "
+      " seo ";
+  }
+
+
+  .serviceSeo {
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ----- Seccion de service dentro de la pagina Home ----- */
+  .agencia .service {
+    flex-direction: column;
+  }
+
+
+
+  .agencia .service .service__Responsive .service__Responsive--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .agencia .service .service__Responsive .service__Responsive--Paragraph {
+    width: 70%;
+    position: relative;
+    top: -50px;
+    margin: auto;
+  }
+
+  /* ----- */
+
+  .agencia .service .service__Ecommerce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+  }
+
+  .agencia .service .service__Ecommerce .service__Ecommerce--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .agencia .service .service__Ecommerce .service__Ecommerce--Paragraph {
+    width: 70%;
+    position: relative;
+    top: -50px;
+    margin: auto;
+  }
+
+  /* ----- Seccion de service E-Commerce dentro de la pagina Home ----- */
+  .agencia .serviceSeo {
+    grid-area: seo;
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .agencia .serviceSeo .serviceSeo__Positioning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Paragraph {
+    width: 70%;
+    position: relative;
+    top: -50px;
+    margin: auto;
+  }
+
+  /* ----- */
+
+  .agencia .serviceSeo .serviceSeo__Advertisements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .agencia .serviceSeo .serviceSeo__Advertisements--Container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .agencia .serviceSeo .serviceSeo__Advertisements--Paragraph {
+    width: 70%;
+    position: relative;
+    top: -50px;
+    margin: auto;
+  }
+
 }
