@@ -3,7 +3,7 @@
 .softwareInfo{
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
     grid-template-areas: 
     "description"
     "ERPyCRM"
@@ -22,6 +22,7 @@
     grid-area: ERPyCRM;
     display: flex;
     margin: 1rem;
+    height: 25vh;
 }
 .P {
     position: relative;
@@ -61,6 +62,7 @@
     grid-area: SGAyRRHH;
     display: flex;
     margin: 1rem;
+    height: 25vh;
 }
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH{
     width: 50%;
@@ -94,6 +96,7 @@
     grid-area: MEDIDAyBOT;
     display: flex;
     margin: 1rem;
+    height: 25vh;
 }
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA{
     width: 50%;

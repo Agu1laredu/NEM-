@@ -4,7 +4,7 @@ import "./ventajas.css"
 function Ventajas() {
   return (
     <div className="ventajas">
-      <div className="ventajas__Description">
+      <div className="ventajas__Description" data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
         <h2>VENTAJAS</h2>
         <p className="P">
           El desarrollo de programas a medida brinda soluciones que se ajustan a
@@ -14,7 +14,7 @@ function Ventajas() {
       </div>
 
       <div className="ventajas__PrimerBloque">
-        <article className="ventajas__PrimerBloque--Gastos">
+        <article className="ventajas__PrimerBloque--Gastos" data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
           <AiFillLike />
           <h3 >MENOR GASTO </h3>
           <p>
@@ -24,7 +24,7 @@ function Ventajas() {
             largo plazo.
           </p>
         </article>
-        <article className="ventajas__PrimerBloque--Tiempo" >
+        <article className="ventajas__PrimerBloque--Tiempo" data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
           <AiFillLike />
           <h3>
             AHORRO DE TIEMPO{" "}
@@ -38,7 +38,7 @@ function Ventajas() {
       </div>
 
       <div className="ventajas__SegundoBloque">
-        <article className="ventajas__SegundoBloque--Integracion">
+        <article className="ventajas__SegundoBloque--Integracion" data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
           <AiFillLike />
           <h3>INTEGRACIÓN </h3>
           <p>
@@ -48,7 +48,7 @@ function Ventajas() {
             procesos.
           </p>
         </article>
-        <article className="ventajas__SegundoBloque--Flexibilidad">
+        <article className="ventajas__SegundoBloque--Flexibilidad" data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
           <AiFillLike />
           <h3>FLEXIBILIDAD</h3>
           <p>

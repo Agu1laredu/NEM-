@@ -1,10 +1,14 @@
 import { GoVerified } from "react-icons/go";
 import "./agencia.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function Agencia() {
   return (
     <div className="agencia">
-      <div className="description">
+      <div className="description" data-aos="zoom-out-left " data-aos-delay="500" data-aos-duration="5000">
         <h1 className="description__Title">AGENCIA</h1>
         <p className="description__Paragraph">
           Servicios de marketing digital que conectan a tu empresa con
@@ -13,7 +17,7 @@ function Agencia() {
       </div>
 
       <div className="service">
-        <article className="service__Responsive">
+        <article className="service__Responsive" data-aos="zoom-out-right">
           <div className="service__Responsive--Container">
             <GoVerified className="Icon" />
             <h3> SITIO RESPONSIVE </h3>
@@ -25,7 +29,7 @@ function Agencia() {
           </p>
         </article>
 
-        <article className="service__Ecommerce">
+        <article className="service__Ecommerce" data-aos="zoom-out-left">
           <div className=" service__Ecommerce--Container">
             <GoVerified className="Icon" />
             <h3>E-COMMERCE</h3>
@@ -38,7 +42,7 @@ function Agencia() {
       </div>
 
       <div className="serviceSeo">
-        <article className="serviceSeo__Positioning">
+        <article className="serviceSeo__Positioning" data-aos="zoom-out-right">
           <div className="serviceSeo__Positioning--Container">
             <GoVerified className="Icon" />
             <h3> POSICIONAMIENTO </h3>
@@ -49,7 +53,7 @@ function Agencia() {
           </p>
         </article>
 
-        <article className="serviceSeo__Advertisements">
+        <article className="serviceSeo__Advertisements" data-aos="zoom-out-left">
           <div className="serviceSeo__Advertisements--Container">
             <GoVerified className="Icon" />
             <h3>ANUNCIOS ONLINE</h3>
