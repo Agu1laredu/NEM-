@@ -15,7 +15,7 @@ function SoftwareInfo() {
       <div data-aos="fade-up">
         <div className="softwareInfo__Desciption ">
           <h1>SOFTWARE</h1>
-          <p className="P">
+          <p>
             Años de experiencia que nos permiten brindar soluciones a medida para
             empresas, marcas, pymes y emprendedores.
           </p>

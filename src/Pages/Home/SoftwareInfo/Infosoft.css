@@ -15,7 +15,9 @@
     grid-area: description;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
 }
 /* ERP y CRM */
 .softwareInfo .softwareInfo__ERPyCRM{
@@ -23,11 +25,6 @@
     display: flex;
     margin: 1rem;
     height: 25vh;
-}
-.P {
-    position: relative;
-    top: 5px;
-    margin: auto;
 }
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP{
     width: 50%;

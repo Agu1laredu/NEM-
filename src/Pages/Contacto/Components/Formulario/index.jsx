@@ -1,3 +1,4 @@
+import { Buttom } from "../../../../Components/Buttom/Buttom";
 import "./Formulario.css";
 
 function Formulario() {
@@ -59,9 +60,7 @@ function Formulario() {
             // }}
           />
           <textarea placeholder="Mensaje"></textarea>
-          <button style={{ position: "relative", top: "20px", left: "150px" }}>
-            Enviar
-          </button>
+          <Buttom color='#0096d5' texto='Enviar'/>
         </form>
       </div>
     </div>
