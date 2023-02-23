@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import 'animate.css';
+import './Buttom.css';
 
 
 export const Buttom = ({color, texto}) => {
