@@ -56,6 +56,8 @@
 
 .agencia .service .service__Responsive .service__Responsive--Container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
@@ -80,6 +82,8 @@
 
 .agencia .service .service__Ecommerce .service__Ecommerce--Container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
@@ -108,6 +112,8 @@
 
 .agencia .serviceSeo .serviceSeo__Positioning .serviceSeo__Positioning--Container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
@@ -131,6 +137,8 @@
 
 .agencia .serviceSeo .serviceSeo__Advertisements--Container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
