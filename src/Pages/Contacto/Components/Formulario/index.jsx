@@ -1,4 +1,4 @@
-import { Buttom } from "../../../../Components/Buttom/Buttom";
+import { Button } from "../../../../Components/Buttom/Button";
 import "./Formulario.css";
 
 function Formulario() {
@@ -60,7 +60,7 @@ function Formulario() {
             // }}
           />
           <textarea placeholder="Mensaje"></textarea>
-          <Buttom color='#0096d5' texto='Enviar'/>
+          <Button color='#0096d5' texto='Enviar'/>
         </form>
       </div>
     </div>

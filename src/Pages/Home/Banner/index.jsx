@@ -1,7 +1,7 @@
 import "./Banner.css";
 import BannerImg from "./assets/th.jpg";
 import 'animate.css';
-import { Buttom } from "../../../Components/Buttom/Buttom";
+import { Button } from "../../../Components/Buttom/Button";
 
 
 
@@ -23,7 +23,7 @@ function Banner() {
             Nos encargamos de que la inteligencia digital se adapte a tu empresa
             para agilizar procesos que aumenten la productividad y las ventas.
           </p>
-          <Buttom color= 'white' texto='Leer más'/>
+          <Button color='white' texto='Leer más' />
         </div>
       </section>
       <section className="banner__Ilustracion">

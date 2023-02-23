@@ -9,199 +9,163 @@ import {
   AiOutlineSound,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
-import "./servicios.css";
+import styled from "styled-components";
 
 function Servicios() {
+  const MyH3 = styled.h3`
+    font-size: 18px;
+  `
+  const FlexContainerRow = styled.div`
+    display: flex;
+    justify-content: center;
+  `
+  const FlexContentCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 20vh;
+  `;
+  const FlexItemCol = styled.article`
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem auto;
+   font-size: xx-large;
+  `;
+  const Container = styled.div`
+    height: 100%;
+    background-color: #e3e1e1;
+;
+  `;
+  
   return (
-    <div className="SoftwareInfo">
-      <div className="divInfo">
-        <h2 className="h2info">SERVICIOS</h2>
-        <p className="PInfo">
+    <Container >
+      <FlexContentCol data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000">
+        <h2>SERVICIOS</h2>
+        <p>
           Brindamos una gama de servicios para conectar a tu empresa con
           potenciales clientes.
         </p>
-      </div>
-      <div className="divArticle">
-        <article className="articuloServicio">
-          <AiOutlineSetting
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px" }}>SOFTWARE</h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+      </FlexContentCol>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="100" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineSetting />
+            <MyH3>SOFTWARE</MyH3>
+          </FlexItemCol>
+          <p>
             Desarrollo de programas a medida con agregado de nuevas funciones y
             mantenimiento.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ marginTop: "100px", marginLeft: "50px" }}
-        >
-          <AiOutlineShake
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "320px", width: "30%" }}>
-            APPS{" "}
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="100" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineShake />
+            <MyH3>
+              APPS{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Desarrollo de apps multiplataforma Android y Apple con base de datos
             sincronizados.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article className="articuloServicio" style={{ marginTop: "100px" }}>
-          <AiOutlineShoppingCart
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "280px", width: "30%" }}>
-            E-COMMERCE
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineShoppingCart />
+            <MyH3>
+              E-COMMERCE
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Tienda online adaptada a móviles con protocolo de seguridad,
             configuración de pagos y envíos.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ marginTop: "100px", marginLeft: "50px" }}
-        >
-          <AiOutlineLaptop
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px", width: "30%" }}>
-            SITIO WEB{" "}
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineLaptop />
+            <MyH3>
+              SITIO WEB{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Registro de dominio, administración de hosting y diseño adaptado a
             celulares.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article className="articuloServicio" style={{ marginTop: "100px" }}>
-          <AiOutlineComment
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px", width: "30%" }}>
-            CHAT BOT
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineComment
+            />
+            <MyH3>
+              CHAT BOT
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Instalación y configuración con atención al cliente las 24 horas.
             Soporte técnico.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ marginTop: "100px", marginLeft: "50px" }}
-        >
-          <AiOutlineCluster
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px", width: "30%" }}>
-            REDES ADS{" "}
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineCluster />
+            <MyH3>
+              REDES ADS{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Campañas integradas en Redes Sociales. Facebook e Instagram con
             WhatsApp Business.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article className="articuloServicio" style={{ marginTop: "100px" }}>
-          <AiOutlineStock
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "330px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px", width: "30%" }}>
-            AGENCIA SEO
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="400" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineStock />
+            <MyH3>
+              AGENCIA SEO
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Evaluación de las palabras claves rentables con plan de trabajo e
             informe mensual. Resultados duraderos.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ marginTop: "100px", marginLeft: "50px" }}
-        >
-          <AiOutlineSound
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "330px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px", width: "30%" }}>
-            GOOGLE ADS{" "}
-          </h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="400" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineSound />
+            <MyH3>
+              GOOGLE ADS{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Campañas publicitarias profesionales con público segmentado y
             optimización diaria. Informe mensual.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article className="articuloServicio" style={{ marginTop: "100px" }}>
-          <AiOutlineFundProjectionScreen
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "330px",
-              fontSize: "50",
-              color: "#0096d5",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "300px" }}> SHOPPING</h3>
-          <p style={{ position: "relative", top: "60px", left: "50px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="500" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiOutlineFundProjectionScreen />
+            <MyH3> SHOPPING</MyH3>
+          </FlexItemCol>
+          <p>
             Configuración de tienda online dentro de Facebook y de Instagram
             Shopping para incrementar las ventas.
           </p>
-        </article>
-      </div>
-    </div>
+        </FlexContentCol>
+      </FlexContainerRow>
+    </Container>
   );
 }
 

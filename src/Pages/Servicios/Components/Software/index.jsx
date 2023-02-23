@@ -1,6 +1,11 @@
 import { GoVerified } from "react-icons/go";
 import styled from "styled-components";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 
 function Software() {
   const Line = styled.div`
@@ -40,7 +45,7 @@ function Software() {
 
   return (
     <Container>
-      <FlexContentCol>
+      <FlexContentCol data-aos="fade-up">
         <h1>SOFTWARE</h1>
         <p>
           Ofrecemos soluciones adaptándonos a cada plan de negocio con
@@ -49,7 +54,7 @@ function Software() {
       </FlexContentCol>
 
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="flip-left" data-aos-delay="100" data-aos-duration="5000">
           <FlexItemCol>
             <GoVerified />
             <MyH3>
@@ -61,7 +66,7 @@ function Software() {
             mejores criterios de calidad en software a medida.
           </p>
         </FlexContentCol>
-        <FlexContentCol>
+        <FlexContentCol data-aos="flip-left" data-aos-delay="100" data-aos-duration="5000">
           <FlexItemCol>
             <GoVerified />
             <MyH3>
@@ -75,7 +80,7 @@ function Software() {
         </FlexContentCol>
       </FlexContainerRow>
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="flip-left" data-aos-delay="100" data-aos-duration="5000">
           <FlexItemCol>
             <GoVerified />
             <MyH3>
@@ -87,7 +92,7 @@ function Software() {
             personalizado que pueda cumplir con los objetivos trazados.
           </p>
         </FlexContentCol>
-        <FlexContentCol>
+        <FlexContentCol data-aos="flip-left" data-aos-delay="100" data-aos-duration="5000">
           <FlexItemCol>
             <GoVerified />
             <MyH3>

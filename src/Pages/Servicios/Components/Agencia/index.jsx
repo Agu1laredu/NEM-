@@ -11,6 +11,11 @@ import {
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 function Servicios() {
   const MyH3 = styled.h3`
     font-size: 18px;
@@ -47,7 +52,7 @@ function Servicios() {
 
   return (
     <Container>
-      <FlexContentCol>
+      <FlexContentCol data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000">
         <h1>AGENCIA</h1>
         <p>
           Servicios de marketing digital que conectan a tu empresa con
@@ -58,7 +63,7 @@ function Servicios() {
       {/* -------------------------------------------- */}
 
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineSetting />
             <MyH3>SOFTWARE</MyH3>
@@ -68,7 +73,7 @@ function Servicios() {
             mantenimiento.
           </p>
         </FlexContentCol>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
 
           <FlexItemCol>
             <AiOutlineShake />
@@ -84,7 +89,7 @@ function Servicios() {
       {/* -------------------------------------------- */}
 
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineShoppingCart />
             <MyH3>E-COMMERCE</MyH3>
@@ -94,7 +99,7 @@ function Servicios() {
             configuración de pagos y envíos.
           </p>
         </FlexContentCol>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineLaptop
             />
@@ -110,7 +115,7 @@ function Servicios() {
       {/* -------------------------------------------- */}
 
       <FlexContainerRow>
-        <FlexContentCol >
+        <FlexContentCol  data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineComment />
             <MyH3>CHAT BOT</MyH3>
@@ -120,7 +125,7 @@ function Servicios() {
             Soporte técnico.
           </p>
         </FlexContentCol>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineCluster />
             <MyH3>REDES ADS </MyH3>
@@ -135,7 +140,7 @@ function Servicios() {
       {/* -------------------------------------------- */}
 
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineStock />
             <MyH3>AGENCIA SEO</MyH3>
@@ -145,7 +150,7 @@ function Servicios() {
             informe mensual. Resultados duraderos.
           </p>
         </FlexContentCol>
-        <FlexContentCol >
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineSound />
             <MyH3>GOOGLE ADS </MyH3>
@@ -160,7 +165,7 @@ function Servicios() {
       {/* -------------------------------------------- */}
 
       <FlexContainerRow>
-        <FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
           <FlexItemCol>
             <AiOutlineFundProjectionScreen />
             <MyH3> SHOPPING</MyH3>

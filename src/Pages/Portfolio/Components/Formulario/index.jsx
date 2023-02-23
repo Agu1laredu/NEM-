@@ -1,70 +1,55 @@
+import styled from "styled-components";
+import { Button } from "../../../../Components/Buttom/Button";
 import "./Formulario.css";
 
 function Formulario() {
+  const Form = styled.form`
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `
+  const FormDescription = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+  `
+  const ContainerForm = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0;
+  `
   return (
-    <div
-      className="Formulario"
-      style={{ backgroundColor: "#0096d5", height: "650px" }}
-    >
-      <div>
-        <h3 style={{ position: "relative", top: "40px", textAlign: "center" }}>
-        ESCRÍBENOS
+    <ContainerForm>
+      <FormDescription>
+        <h3>
+          ESCRÍBENOS
         </h3>
-        <p style={{ position: "relative", top: "40px", left: "350px" }}>
+        <p>
           Empresa de software con experiencia. Soluciones a medida. Solicita un
           presupuesto sin compromiso.
         </p>
-      </div>
-      <div>
-        <form
-          action=""
-          style={{
-            position: "relative",
-            left: "500px",
-            top: "100px",
-            width: "500px",
-            height: "300px",
-          }}
-        >
-          <input
-            type="text"
-            placeholder="Nombre"
-            style={
-              {
-                //   backgroundColor: "transparent",
-                //   border: "none",
-                //   width: "250px",
-                //   marginTop: "40px",
-              }
-            }
-          />
-          <input
-            type="email"
-            placeholder="Email"
-            // style={{
-            //   backgroundColor: "transparent",
-            //   border: "none",
-            //   width: "250px",
-            //   marginTop: "40px",
-            // }}
-          />
-          <input
-            type="text"
-            placeholder="Celular"
-            // style={{
-            //   backgroundColor: "transparent",
-            //   border: "none",
-            //   width: "250px",
-            //   marginTop: "40px",
-            // }}
-          />
-          <textarea placeholder="Mensaje"></textarea>
-          <button style={{ position: "relative", top: "20px", left: "150px" }}>
-            Enviar
-          </button>
-        </form>
-      </div>
-    </div>
+      </FormDescription>
+      <Form
+      >
+        <input
+          type="text"
+          placeholder="Nombre"
+        />
+        <input
+          type="email"
+          placeholder="Email"
+        />
+        <input
+          type="text"
+          placeholder="Celular"
+        />
+        <textarea placeholder="Mensaje"></textarea>
+        <Button color='white' texto='Enviar' />
+      </Form>
+    </ContainerForm>
   );
 }
 

@@ -1,3 +1,4 @@
+import { Button } from "../Buttom/Button";
 import "./Formulario.css";
 
 function Formulario() {
@@ -34,9 +35,7 @@ function Formulario() {
             placeholder="Celular"
           />
           <textarea placeholder="Mensaje"></textarea>
-          <button id="btnForm" className="btn  third color">
-            Enviar
-          </button>
+          <Button color= 'white' texto= 'Enviar'/>
         </form>
       </div>
     </div>

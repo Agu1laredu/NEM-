@@ -12,10 +12,8 @@ input {
 
 textarea {
   border: 1px solid #bbb;
-  box-sizing: border-box;
   width: 77%;
-  border-bottom: 1px solid #bbb;
+  height: 300px;
   padding: 16px;
-  margin: 10px;
   background-color: transparent;
 }

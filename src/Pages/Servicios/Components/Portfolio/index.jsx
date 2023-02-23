@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { useState } from "react";
-import "./Porfolio.css";
+// import "./Porfolio.css";
 
 import imagenTres from "./assets/th.jpg";
 import imagenDos from "./assets/b5ed810a-4e20-46a5-a278-50ece165bde9.jpg";

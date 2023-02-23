@@ -1,99 +1,102 @@
 import { AiFillLike } from "react-icons/ai";
+import styled from "styled-components";
 
 function Ventajas() {
+  const MyH3 = styled.h3`
+    font-size: 18px;
+  `
+
+  const FlexContainerRow = styled.div`
+    display: flex;
+    justify-content: center;
+  `
+
+  const FlexContentCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 20vh;
+  `;
+  const FlexItemCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: xx-large;
+  `;
+  const Container = styled.div`
+    height: 100%;
+  `
+
+
   return (
-    <div className="SoftwareInfo" style={{ backgroundColor: "#f7f7f7" , height: '700px', marginBottom: '-20px'}}>
-      <div style={{ position: "relative", top: "40px" }}>
-        <h2 style={{ textAlign: "center" }}>VENTAJAS</h2>
-        <p style={{ position: "relative", left: "350px", top: "2px" }}>
+    <Container>
+      <FlexContentCol data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000">
+        <h2>VENTAJAS</h2>
+        <p>
           El desarrollo de programas a medida brinda soluciones que se ajustan a
           las exigencias de cada empresa y a los cambios que surgen con su
           crecimiento.
         </p>
-      </div>
+      </FlexContentCol>
 
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <AiFillLike
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%"  }}>MENOR GASTO </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>MENOR GASTO </MyH3>
+          </FlexItemCol>
+          <p>
             Poner en marcha un software a medida necesita de una buena inversión
             inicial, pero cuando comienza a trabajar se recupera lo invertido en
             poco tiempo. Los beneficios de optimizar procesos son enormes a
             largo plazo.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <AiFillLike
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px" , width: "30%" }}>
-            AHORRO DE TIEMPO{" "}
-          </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>
+              AHORRO DE TIEMPO{" "}
+            </MyH3>
+          </FlexItemCol>
+          <p>
             Un software personalizado es capaz de reducir a minutos una o varias
             tareas que antes llevaban días o semanas. La economía del tiempo
             supone un aumento considerable de la productividad.
           </p>
-        </article>
-      </div>
-      <div style={{ display: "flex" }}>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <AiFillLike
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px", width: "30%"  }}>INTEGRACIÓN </h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+      </FlexContainerRow>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>INTEGRACIÓN </MyH3>
+          </FlexItemCol>
+          <p>
             El software a medida es una gran solución para la integración. Las
             empresas que utilizan varios programas pueden disfrutar de los
             beneficios de trabajar con una plataforma que integre múltiples
             procesos.
           </p>
-        </article>
-        <article
-          className="article"
-          style={{ width: "47.25%", marginTop: "50px" }}
-        >
-          <AiFillLike
-            style={{
-              marginBottom: "-20px",
-              position: "relative",
-              left: "320px",
-            }}
-          />
-          <h3 style={{ position: "relative", left: "260px" , width: "30%" }}>FLEXIBILIDAD</h3>
-          <p style={{ position: "relative", top: "10px" }}>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>FLEXIBILIDAD</MyH3>
+          </FlexItemCol>
+          <p>
             Los programas a medida pueden ser modificados de acuerdo a las
             necesidades de la empresa. El software evoluciona para satisfacer
             las nuevas demandas con un presupuesto inferior a la inversión
             inicial.
           </p>
-        </article>
-      </div>
-    </div>
+        </FlexContentCol>
+      </FlexContainerRow>
+    </Container>
   );
 }
 

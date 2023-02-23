@@ -1,39 +1,32 @@
 import { BsTwitter, BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import styled from "styled-components";
 
-function Footer() {
+function Footer2() {
+    const Footer = styled.div`
+      display: flex;
+      justify-content: space-between;
+      height: 8vh;
+      align-items: center;
+    `
+    const FontIcon = styled.div`
+      font-size: x-large;
+      display: flex;
+      justify-content: space-around;
+      width: 20vw;
+    `
   return (
-    <div style={{ display: "flex", height: "50px" }}>
-      <p style={{ position: "relative", top: "5px",left: "60px", }}>@NEM TECHNOLOGIES 2023</p>
-      <BsTwitter
-        style={{
-          position: "relative",
-          left: "950px",
-          top: "10px",
-          fontSize: "25",
-          cursor: "pointer",
-        }}
-      />
-      <BsFacebook
-        style={{
-          position: "relative",
-          left: "1000px",
-          top: "10px",
-          fontSize: "25",
-          cursor: "pointer",
-        }}
-      />
-      <AiFillInstagram
-        style={{
-          position: "relative",
-          left: "1050px",
-          top: "10px",
-          fontSize: "25",
-          cursor: "pointer",
-        }}
-      />
-    </div>
+
+    <Footer>
+      <p>@NEM TECHNOLOGIES 2023</p>
+
+      <FontIcon>
+        <BsTwitter/>
+        <BsFacebook/>
+        <AiFillInstagram/>
+      </FontIcon>
+    </Footer>
   );
 }
 
-export default Footer;
+export default Footer2;
