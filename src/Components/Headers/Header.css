@@ -12,9 +12,6 @@
 }
 
 .header .header__Logo .header__Logo--Img {
-  position: relative;
-  top: -30px;
-  left: 140px;
   cursor: pointer;
   object-fit: cover;
   width: 250px;
@@ -38,4 +35,47 @@
 .header__Menu .header__Menu--Link:hover {
   color: rgb(153, 153, 155);
   transition: 2s;
+}
+
+
+@media (max-width: 1000px){
+
+  .header {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0096d5;
+  }
+  
+  .header .header__Logo {
+    height: max-content;
+    width: max-content;
+  }
+  
+  .header .header__Logo .header__Logo--Img {
+    width: 250px;
+    height: 150%;
+    align-items: center;
+  }
+  
+  .header__Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  
+  
+  .header__Menu .header__Menu--Link {
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header__Menu .header__Menu--Link:hover {
+    color: rgb(153, 153, 155);
+    transition: 2s;
+  }
 }

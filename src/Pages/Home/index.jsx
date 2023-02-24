@@ -6,11 +6,16 @@ import Ventajas from './Ventajas/index.jsx';
 import Formulario from '../../Components/Formulario/index.jsx';
 import Footer from '../../Components/Footer/index.jsx';
 import NoTransitionExample from "./Portfolio/index.jsx";
+import styled from "styled-components";
 
 
 function App() {
+  const ContainerAppHome = styled.div`
+    min-width: 400px;
+  `
+
   return (
-    <div className="App">
+    <ContainerAppHome>
       <Headers />
       <Banner />
       <SoftwareInfo />
@@ -19,7 +24,7 @@ function App() {
       <Ventajas />
       <Formulario />
       <Footer />
-    </div>
+    </ContainerAppHome>
   );
 }
 

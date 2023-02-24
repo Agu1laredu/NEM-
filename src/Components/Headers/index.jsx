@@ -5,11 +5,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <div className="header__Logo">
-        <Link to={"/"}>
-          <img className="header__Logo--Img" src={Logo} alt="Logo" />
-        </Link>
-      </div>
+      <Link className="header__Logo" to={"/"}>
+        <img className="header__Logo--Img" src={Logo} alt="Logo" />
+      </Link>
 
       <div className="header__Menu">
         <Link className="header__Menu--Link" to={"/"}>

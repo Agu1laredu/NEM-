@@ -13,7 +13,7 @@ function Footer2() {
       font-size: x-large;
       display: flex;
       justify-content: space-around;
-      width: 20vw;
+      width: 30vw;
     `
   return (
 

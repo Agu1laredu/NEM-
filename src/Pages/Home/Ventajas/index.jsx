@@ -1,66 +1,133 @@
 import { AiFillLike } from "react-icons/ai";
-import "./ventajas.css"
+import styled from "styled-components";
 
 function Ventajas() {
+  const MyH3 = styled.h3`
+    font-size: 18px;
+  `
+
+  const FlexContainerRow = styled.div`
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+  `
+
+  const FlexContentCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 20vh;
+
+    & p{
+      width: 80%;
+    }
+
+    @media (max-width: 1000px) {
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+      height: auto;
+    }
+  `;
+  const FlexItemCol = styled.article`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: xx-large;
+    & p{
+      font-size: large;
+      margin: 0% auto;
+    }
+
+    @media (max-width: 1000px) {
+      & p{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      }
+    }
+  `;
+  const Container = styled.div`
+    height: 100%;
+    padding: 5% 0;
+    background-color: #e3e1e1;
+  `
   return (
-    <div className="ventajas">
-      <div className="ventajas__Description" data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
+    <Container>
+      <FlexItemCol data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
         <h2>VENTAJAS</h2>
         <p className="P">
           El desarrollo de programas a medida brinda soluciones que se ajustan a
           las exigencias de cada empresa y a los cambios que surgen con su
           crecimiento.
         </p>
-      </div>
+      </FlexItemCol>
 
-      <div className="ventajas__PrimerBloque">
-        <article className="ventajas__PrimerBloque--Gastos" data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
-          <AiFillLike />
-          <h3 >MENOR GASTO </h3>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3 >MENOR GASTO </MyH3>
+          </FlexItemCol>
           <p>
             Poner en marcha un software a medida necesita de una buena inversión
             inicial, pero cuando comienza a trabajar se recupera lo invertido en
             poco tiempo. Los beneficios de optimizar procesos son enormes a
             largo plazo.
           </p>
-        </article>
-        <article className="ventajas__PrimerBloque--Tiempo" data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
-          <AiFillLike />
-          <h3>
-            AHORRO DE TIEMPO{" "}
-          </h3>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>
+              AHORRO DE TIEMPO{" "}
+            </MyH3>
+          </FlexItemCol>
           <p>
             Un software personalizado es capaz de reducir a minutos una o varias
             tareas que antes llevaban días o semanas. La economía del tiempo
             supone un aumento considerable de la productividad.
           </p>
-        </article>
-      </div>
+        </FlexContentCol>
+      </FlexContainerRow>
 
-      <div className="ventajas__SegundoBloque">
-        <article className="ventajas__SegundoBloque--Integracion" data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
-          <AiFillLike />
-          <h3>INTEGRACIÓN </h3>
+      <FlexContainerRow>
+        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>INTEGRACIÓN </MyH3>
+          </FlexItemCol>
           <p>
             El software a medida es una gran solución para la integración. Las
             empresas que utilizan varios programas pueden disfrutar de los
             beneficios de trabajar con una plataforma que integre múltiples
             procesos.
           </p>
-        </article>
-        <article className="ventajas__SegundoBloque--Flexibilidad" data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
-          <AiFillLike />
-          <h3>FLEXIBILIDAD</h3>
+        </FlexContentCol>
+        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>FLEXIBILIDAD</MyH3>
+          </FlexItemCol>
           <p>
             Los programas a medida pueden ser modificados de acuerdo a las
             necesidades de la empresa. El software evoluciona para satisfacer
             las nuevas demandas con un presupuesto inferior a la inversión
             inicial.
           </p>
-        </article>
-      </div>
+        </FlexContentCol>
+      </FlexContainerRow>
 
-    </div>
+    </Container>
   );
 }
 

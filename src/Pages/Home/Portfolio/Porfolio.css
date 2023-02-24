@@ -7,3 +7,11 @@
     cursor: pointer;
 }
 
+@media (max-width: 1000px){
+    #img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        padding: 10px 0;
+    }
+}

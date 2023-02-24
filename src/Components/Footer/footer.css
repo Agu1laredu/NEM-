@@ -27,7 +27,6 @@
   align-items: center;
   width: 100%;
   font-size: 25px;
-  margin-left: 10px;
 }
 .footer__Email b {
   margin: 2rem;
@@ -44,4 +43,21 @@
 }
 .footer__PinFill b {
   margin: 2rem;
+}
+
+
+
+@media(max-width: 1000px){
+  .footer {
+    background-color: #343740;
+    height: 100%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "phone"
+    "email"
+    "pinfill";
+  }
 }
