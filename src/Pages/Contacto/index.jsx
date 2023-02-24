@@ -2,29 +2,30 @@ import React from "react";
 import Headers from "../../Components/Headers/index.jsx";
 import Formulario from "./Components/Formulario/index.jsx";
 import Footer from "../../Components/Footer/index.jsx";
+import styled from "styled-components";
 
 function Contacto() {
+  const PageContact = styled.div`
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    background-color: #0096d5;
+    border-top: 1px solid black;
+    & b {
+      font-size: 50px;
+      margin-left: 10%;
+    }
+  `
   return (
     <div className="nosotros">
       <Headers />
-      <div
-        style={{
-          height: "200px",
-          backgroundColor: "#0096d5",
-          borderTop: "1px solid black",
-        }}
-      >
-        <b
-          style={{
-            position: "relative",
-            top: "60px",
-            left: "300px",
-            fontSize: "50px",
-          }}
-        >
+      <PageContact>
+        <b>
           CONTACTO
         </b>
-      </div>
+      </PageContact>
       <Formulario />
       <Footer />
     </div>
