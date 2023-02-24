@@ -11,8 +11,8 @@ function Equipo() {
         «El talento gana partidos, pero el trabajo en equipo gana campeonatos».
       </p>
       <div className="divEquipo">
-        <img src={Malena} alt="" className="foto" />
         <img src={Eduardo} alt="" className="foto" />
+        <img src={Malena} alt="" className="foto" />
       </div>
     </div>
   );

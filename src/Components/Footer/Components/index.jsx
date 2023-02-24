@@ -8,12 +8,18 @@ function Footer2() {
       justify-content: space-between;
       height: 8vh;
       align-items: center;
+      & p {
+        width: 33vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
     `
     const FontIcon = styled.div`
       font-size: x-large;
       display: flex;
       justify-content: space-around;
-      width: 30vw;
+      width: 33vw;
     `
   return (
 
