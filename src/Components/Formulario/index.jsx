@@ -5,13 +5,13 @@ function Formulario() {
   return (
     <div className="formulario">
       <div className="formulario__Invitacion">
-        <h3>
+        <h3 className="h3">
           ¿NECESITAS AYUDA?
         </h3>
         <h3>
           ESCRÍBENOS
         </h3>
-        <p className="P">
+        <p className="p">
           Empresa de software con experiencia. Soluciones a medida. Solicita un
           presupuesto sin compromiso.
         </p>
@@ -23,19 +23,23 @@ function Formulario() {
           action=""
         >
           <input
+          className="uno"
             type="text"
             placeholder="Nombre"
           />
           <input
+           className="dos"
             type="email"
             placeholder="Email"
           />
-          <input
+          <input className="tres"
             type="text"
             placeholder="Celular"
           />
           <textarea placeholder="Mensaje"></textarea>
-          <Button color= 'white' texto= 'Enviar'/>
+         <div className="buttons">
+         <Button color= 'white' texto= 'Enviar'/>
+         </div>
         </form>
       </div>
     </div>

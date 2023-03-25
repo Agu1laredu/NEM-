@@ -20,10 +20,11 @@ function Banner() {
             ARGENTINA
           </h3>
           <p>
-            Nos encargamos de que la inteligencia digital se adapte a tu empresa
-            para agilizar procesos que aumenten la productividad y las ventas.
+          Nos encargamos de que la inteligencia digital se adapte a tu empresa para agilizar procesos que aumenten la productividad y las ventas.
           </p>
-          <Button color='white' texto='Leer más' />
+         <div  id='Button'>
+         <Button className='buttons' color='white' texto='Leer más' />
+         </div>
         </div>
       </section>
       <section className="banner__Ilustracion">

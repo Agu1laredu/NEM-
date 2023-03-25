@@ -5,9 +5,8 @@
     -moz-appearance: none;
     appearance: none;
     background-color: transparent;
-    border: 2px solid #3b3742;
     border-radius: 0.6em;
-    color: #3b3742;
+    background-color: #000000;
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -23,23 +22,14 @@
     padding: 1.2em 2.8em;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
   
-  .btn:hover,
-  .btn:focus {
-    color: #fff;
-    outline: 0;
+  .btn:hover{
+    transition: 3s;
+    background-color: #000000;
   }
   
-  .third {
-    border-color: #3b3742;
-    box-shadow: 0 0 40px 40px #3b3742 inset, 0 0 0 0 #3b3742;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-  }
-  .third:hover {
-    box-shadow: 0 0 10px 0 #3b3742 inset, 0 0 10px 4px #3b3742;
-  }
+  
+ 
