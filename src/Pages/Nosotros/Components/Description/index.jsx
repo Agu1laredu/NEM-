@@ -3,6 +3,7 @@ import "./info.css";
 function NoTransitionExample() {
   return (
     <div className="bannerinfo">
+      <section >
       <h2 className="h2BannerInfo">INTELIGENCIA DIGITAL A TU MEDIDA</h2>
       <h5 className="h5BannerInfo">EMPRESA DE SOFTWARE</h5>
       <p>
@@ -40,6 +41,7 @@ function NoTransitionExample() {
         amplia experiencia en anuncios integrados de Facebook e Instagram con
         WhatsApp Business.
       </p>
+      </section>
     </div>
   );
 }

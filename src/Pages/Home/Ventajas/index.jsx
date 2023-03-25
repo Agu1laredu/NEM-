@@ -4,11 +4,13 @@ import styled from "styled-components";
 function Ventajas() {
   const MyH3 = styled.h3`
     font-size: 18px;
+    margin-bottom: 30px;
   `
 
   const FlexContainerRow = styled.div`
     display: flex;
     justify-content: center;
+
 
     @media (max-width: 1000px) {
       flex-direction: column;
@@ -25,7 +27,8 @@ function Ventajas() {
     height: 20vh;
 
     & p{
-      width: 80%;
+      width: 50%;
+      margin-bottom: 50px;
     }
 
     @media (max-width: 1000px) {
@@ -37,10 +40,13 @@ function Ventajas() {
   `;
   const FlexItemCol = styled.article`
     display: flex;
+    position: relative; 
+    top: 50px;
     flex-direction: column;
     align-items: center;
     margin: 1rem auto;
     font-size: xx-large;
+    
     & p{
       font-size: large;
       margin: 0% auto;
@@ -56,6 +62,28 @@ function Ventajas() {
       }
     }
   `;
+  const FlexItemColUno = styled.article`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  font-size: xx-large;
+  
+  & p{
+    font-size: large;
+    margin: -10px auto;
+  }
+
+  @media (max-width: 1000px) {
+    & p{
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
+`;
   const Container = styled.div`
     height: 100%;
     padding: 5% 0;
@@ -63,19 +91,19 @@ function Ventajas() {
   `
   return (
     <Container>
-      <FlexItemCol data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
+      <FlexItemColUno data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
         <h2>VENTAJAS</h2>
         <p className="P">
           El desarrollo de programas a medida brinda soluciones que se ajustan a
           las exigencias de cada empresa y a los cambios que surgen con su
           crecimiento.
         </p>
-      </FlexItemCol>
+      </FlexItemColUno>
 
       <FlexContainerRow>
         <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
-          <FlexItemCol>
-            <AiFillLike />
+          <FlexItemCol >
+            <AiFillLike  />
             <MyH3 >MENOR GASTO </MyH3>
           </FlexItemCol>
           <p>

@@ -11,19 +11,29 @@ input {
 }
 .formulario .formulario__Invitacion .h3{
   position: relative;
-  top: 20px;
-  left: 850px;
+  left: 42.8%;
+  width: 300px;
+}
+
+.formulario__Invitacion {
+  display: grid;
+  margin: auto;
+}
+
+.formulario {
+  margin: auto;
+  display: grid;
 }
 .formulario .formulario__Invitacion h3{
   position: relative;
-  top: 20px;
-  left: 880px;
+  left: 46.8%;
+  width: 300px;
 }
 
 .formulario .formulario__Invitacion .p{
   position: relative;
-  top: 20px;
-  left: 600px;
+  margin: auto;
+  width: 100%;
 }
 .formulario__ContainerForm--Form {
   display: grid;
@@ -33,40 +43,44 @@ input {
   width: 700px;
   position: relative;
   top: 40px;
-  left: 575px;
+  margin: auto;
 }
 
 .formulario__ContainerForm .formulario__ContainerForm--Form .dos {
   width: 700px;
   position: relative;
   top: 40px;
-  left: 575px;
+ 
+  margin: auto;
 }
 .formulario__ContainerForm .formulario__ContainerForm--Form .tres {
   width: 700px;
   position: relative;
   top: 40px;
-  left: 575px;
+  margin: auto;
 }
 
 .formulario__ContainerForm .formulario__ContainerForm--Form .uno {
   width: 700px;
   position: relative;
   top: 40px;
-  left: 575px;
+  margin: auto;
 }
 
 .formulario__ContainerForm .formulario__ContainerForm--Form textarea {
   position: relative;
   top: 80px;
-  left: 585px;
+  margin: auto;
   width: 700px;
 }
 .formulario__ContainerForm .formulario__ContainerForm--Form .buttons {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.formulario__ContainerForm .formulario__ContainerForm--Form .buttons  Button{
   position: relative;
-  top: 80px;
-  left: 850px;
-  width: 800px;
+  margin:  20px auto;
 }
 
 
