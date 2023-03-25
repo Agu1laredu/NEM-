@@ -3,7 +3,7 @@ import Header from "../../Components/Headers/index.jsx";
 import Footer from "../../Components/Footer/index.jsx";
 import Software from "./Components/Software/index.jsx";
 import Agencia from "./Components/Agencia/index.jsx";
-import Portfolio from "./Components/Portfolio/index.jsx";
+import Portfolio from "../Home/Portfolio/index";
 import Form from "../../Components/Formulario/index.jsx";
 
 function Nosotros() {

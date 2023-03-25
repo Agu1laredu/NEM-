@@ -78,11 +78,17 @@ function NoTransitionExample() {
         slidesPerView={2}
         pagination={{ clickable: true }}
         onSlideChange={(e) => console.log(e)}
-        style={{marginBottom: '20px'}}
+        className="SwiperSlide"
       >
-        {Trabajos.map(({ Imagen }) => (
-          <SwiperSlide key={Imagen} style={{ width: "500px" }}>
-            <img id="img" src={Imagen} alt="..."  style={{marginBottom: '20px'}}/>
+        {Trabajos.map(({ Imagen, Titulo, texto }) => (
+          <SwiperSlide
+            className="swiper-slide"
+            key={Imagen}
+            style={{ width: "500px" }}
+          >
+            <h2 className="titulo">{Titulo}</h2>
+            <b className="textoooo">{texto}</b>
+            <img id="img" src={Imagen} alt="..." />
           </SwiperSlide>
         ))}
       </Swiper>
