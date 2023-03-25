@@ -1,4 +1,4 @@
-import { BsTwitter, BsFacebook } from "react-icons/bs";
+import { BsTwitter, BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
 import styled from "styled-components";
 
@@ -28,7 +28,7 @@ function Footer2() {
 
       <FontIcon>
         <BsTwitter/>
-        <BsFacebook/>
+        <BsLinkedin/>
         <AiFillInstagram/>
       </FontIcon>
     </Footer>
