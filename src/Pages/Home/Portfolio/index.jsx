@@ -71,7 +71,7 @@ function NoTransitionExample() {
 
   return (
     <div>
-      {/* <Swiper
+      <Swiper
         onSwiper={setSwiperRef}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={46}
@@ -85,7 +85,7 @@ function NoTransitionExample() {
             <img id="img" src={Imagen} alt="..."  style={{marginBottom: '20px'}}/>
           </SwiperSlide>
         ))}
-      </Swiper> */}
+      </Swiper>
     </div>
   );
 }
