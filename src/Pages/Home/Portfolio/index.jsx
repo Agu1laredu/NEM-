@@ -84,11 +84,10 @@ function NoTransitionExample() {
           <SwiperSlide
             className="swiper-slide"
             key={Imagen}
-            style={{ width: "500px" }}
           >
             <h2 className="titulo">{Titulo}</h2>
             <b className="textoooo">{texto}</b>
-            <img id="img" src={Imagen} alt="..." />
+            <img id="img"  src={Imagen} alt="..." />
           </SwiperSlide>
         ))}
       </Swiper>

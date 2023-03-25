@@ -46,8 +46,8 @@ function Portfolio() {
     <div className="BannerPortfolio">
       {Trabajos.map(({ id, cagetory, texto, Imagen, Titulo }) => (
         <section key={id} className="trabajo">
-          <div style={{ margin: "auto" }}>
-            <h2 className="category">{cagetory}</h2>
+          <div className="slide-in-bck-left" style={{ margin: "auto" }}>
+            <h2 className="category ">{cagetory}</h2>
             <h2 className="Titulo">{Titulo}</h2>
             <p className="textos">{texto}</p>
 
@@ -58,7 +58,7 @@ function Portfolio() {
             </div>
           </div>
           <section style={{ margin: "auto" }}>
-            <img className="imagenTrabajo " src={Imagen} alt="" />
+            <img className="imagenTrabajo slide-in-bck-right " src={Imagen} alt="" />
           </section>
         </section>
       ))}
