@@ -1,5 +1,6 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
+import { Button } from "../../../../Components/Buttom/Button";
 
 const Trabajos = [
   {
@@ -45,16 +46,18 @@ function Portfolio() {
     <div className="BannerPortfolio">
       {Trabajos.map(({ id, cagetory, texto, Imagen, Titulo }) => (
         <section key={id} className="trabajo">
-          <div>
+          <div style={{ margin: "auto" }}>
             <h2 className="category">{cagetory}</h2>
             <h2 className="Titulo">{Titulo}</h2>
-            <p>{texto}</p>
+            <p className="textos">{texto}</p>
 
-            <button className="Button">
-              <Link style={{ color: "black" }}>VER TRABAJO</Link>
-            </button>
+            <div className="Button">
+              <Button texto="VER TRABAJO" color="white">
+                <Link style={{ color: "black" }} />
+              </Button>
+            </div>
           </div>
-          <section>
+          <section style={{ margin: "auto" }}>
             <img className="imagenTrabajo " src={Imagen} alt="" />
           </section>
         </section>

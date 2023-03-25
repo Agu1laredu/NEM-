@@ -7,7 +7,6 @@ function Formulario() {
     flex-direction: column;
     `
   const ContainerCol = styled.div`
-    background-color: #0096d5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,8 +60,8 @@ function Formulario() {
             type="text"
             placeholder="Celular"
           />
-          <textarea placeholder="Mensaje"></textarea>
-          <Button color='#0096d5' texto='Enviar' />
+          <textarea style={{width: '655px'}} placeholder="Mensaje"></textarea>
+          <Button color='white' texto='Enviar' />
         </form>
       </ContainerCol>
     </ContainerForm>
