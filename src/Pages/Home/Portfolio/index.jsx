@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-
 const Trabajos = [
   {
     id: 10,
@@ -40,48 +39,55 @@ const Trabajos = [
   {
     id: 40,
     cagetory: "04",
-    Titulo: " COMUNICAR SALUD - MAGAZINE DIGITAL",
+    Titulo: " CONNECT DIGITAL",
     texto:
-      "Revista 100% compatible con celulares, autoadministrable y con esquema de navegación adaptado al medio.  ",
+      "En Connect te ofrecemos el mejor servicio de Internet banda ancha para empresas gracias a nuestras redes HFC de última generación. Disfrutá del mejor internet wifi para mantener tu negocio siempre conectado. ",
+    Imagen: "https://www.prometec.net/wp-content/uploads/2016/07/internet.jpg",
+  },
+  {
+    id: 50,
+    cagetory: "05",
+    Titulo: " YT Energy",
+    texto:
+      "Yanos Territorios S.A. es una empresa de más 30 años de trayectoria, habiendo operado yacimientos de gas y petróleo en Argentina, Ecuador y Colombia. En la actualidad, Petróleos Sudamericanos SA focaliza sus negocios en la Rep Argentina, siendo concesionaria  de exploración y explotación de 7 áreas en la Cuenca Neuquina.  ",
     Imagen:
-      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-04.png?w=800&ssl=1",
+      "https://static.wixstatic.com/media/745fb0_3b67c3d903c24ed794fa42f7d50b68d3~mv2.jpg/v1/fill/w_1903,h_599,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/745fb0_3b67c3d903c24ed794fa42f7d50b68d3~mv2.jpg",
   },
 ];
 
-
 function NoTransitionExample() {
-    // const swiper = useSwiper();
-  
-    const [, setSwiperRef] = useState(null);
-    // const [index, setIndex] = useState(0);
-  
-    // const handleChangeIndex = (type) => {
-    //   if (type === "next") {
-    //   }
-  
-    //   if (type === "previous") {
-    //   }
-    // };
-  
-    return (
-      <div>
-        <Swiper
-          onSwiper={setSwiperRef}
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
-          slidesPerView={2}
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          onSlideChange={(e) => console.log(e)}
-        >
-          {Trabajos.map(({ Imagen }) => (
-            <SwiperSlide key={Imagen}>
-              <img id="img" src={Imagen} alt="..." />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    );
+  // const swiper = useSwiper();
+
+  const [, setSwiperRef] = useState(null);
+  // const [index, setIndex] = useState(0);
+
+  // const handleChangeIndex = (type) => {
+  //   if (type === "next") {
+  //   }
+
+  //   if (type === "previous") {
+  //   }
+  // };
+
+  return (
+    <div>
+      <Swiper
+        onSwiper={setSwiperRef}
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        spaceBetween={46}
+        slidesPerView={2}
+        pagination={{ clickable: true }}
+        onSlideChange={(e) => console.log(e)}
+        style={{marginBottom: '20px'}}
+      >
+        {Trabajos.map(({ Imagen }) => (
+          <SwiperSlide key={Imagen} style={{ width: "500px" }}>
+            <img id="img" src={Imagen} alt="..."  style={{marginBottom: '20px'}}/>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  );
 }
-  
+
 export default NoTransitionExample;
