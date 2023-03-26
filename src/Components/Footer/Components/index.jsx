@@ -23,7 +23,7 @@ function Footer2() {
   `;
   return (
     <Footer>
-      <p>@NEM TECHNOLOGIES 2023</p>
+      <p>@PIXEL PILOT TECHNOLOGIES 2023</p>
 
       <FontIcon>
         <BsTwitter style={{ cursor: "pointer" }} />

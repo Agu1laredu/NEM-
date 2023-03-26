@@ -7,8 +7,6 @@
 }
 
 #img:hover {
-  width: 105%;
-  z-index: 3;
   transition: 2s;
 }
 .SwiperSlide {
