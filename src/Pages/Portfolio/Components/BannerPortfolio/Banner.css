@@ -4,26 +4,25 @@
 
 .trabajo {
   display: flex;
-  width: 1000px;
+  width: 90%;
   height: 550px;
-  margin:  100px auto; 
+  margin: 100px auto;
   justify-content: center;
 }
 
 .trabajo:hover {
   cursor: pointer;
-   border: 2px solid rgb(4, 4, 4);
-   transition: 2s;
+  border: 2px solid rgb(4, 4, 4);
+  transition: 2s;
 }
 .imagenTrabajo {
   width: 90%;
   height: 400px;
-  background-size: cover;
-  
+  object-fit: cover;
 }
 
 .imagenTrabajo:hover {
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .textos {
@@ -31,7 +30,7 @@
   width: 60%;
   left: 20%;
 }
- .category {
+.category {
   left: 20%;
   position: relative;
   top: 10px;
@@ -54,5 +53,3 @@
   left: 17%;
   top: 100px;
 }
-
-
