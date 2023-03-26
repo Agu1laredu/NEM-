@@ -12,7 +12,7 @@
 
 .trabajo:hover {
   cursor: pointer;
-  border: 2px solid rgb(4, 4, 4);
+  border: 1px solid rgb(4, 4, 4);
   transition: 2s;
 }
 .imagenTrabajo {
