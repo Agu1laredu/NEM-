@@ -4,7 +4,7 @@
 
 .trabajo {
   display: flex;
-  width: 80%;
+  width: 1000px;
   height: 550px;
   margin:  100px auto; 
   justify-content: center;
