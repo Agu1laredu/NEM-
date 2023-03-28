@@ -19,7 +19,7 @@ function Footer() {
           <MdEmail
             style={{ color: "#0096d5"}}
           />
-          <b>pixelpilot@hotmail.com </b>
+          <b>nemtechnologies@hotmail.com </b>
         </div>
 
         <div className="footer__PinFill">
