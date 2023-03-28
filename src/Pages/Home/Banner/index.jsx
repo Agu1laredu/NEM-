@@ -9,7 +9,7 @@ function Banner() {
       <section className="banner__Publicitario slide-in-bck-left">
         <div className="banner__Publicitario--Container">
           <b>EMPRESA DE SOFTWARE </b>
-          <h2>PIXEL PILOT TECHNOLOGIES </h2>
+          <h2>NEM TECHNOLOGIES </h2>
           <h3>ARGENTINA</h3>
           <p>
             Nos encargamos de que la inteligencia digital se adapte a tu empresa

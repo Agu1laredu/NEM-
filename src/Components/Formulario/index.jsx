@@ -38,7 +38,7 @@ function Formulario() {
           />
           <textarea placeholder="Mensaje"></textarea>
          <div className="buttons">
-         <Button color= 'white' texto= 'Enviar'/>
+             <Button color= 'white' texto= 'Enviar'/>
          </div>
         </form>
       </div>
