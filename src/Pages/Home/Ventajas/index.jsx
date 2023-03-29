@@ -5,17 +5,16 @@ function Ventajas() {
   const MyH3 = styled.h3`
     font-size: 18px;
     margin-bottom: 30px;
-  `
+  `;
 
   const FlexContainerRow = styled.div`
     display: flex;
     justify-content: center;
 
-
     @media (max-width: 1000px) {
       flex-direction: column;
     }
-  `
+  `;
 
   const FlexContentCol = styled.article`
     display: flex;
@@ -26,11 +25,15 @@ function Ventajas() {
     margin: auto;
     height: 20vh;
 
-    & p{
+    p {
       width: 50%;
-      margin-bottom: 50px;
     }
-
+    @media (max-width: 1300px) {
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+      height: auto;
+    }
     @media (max-width: 1000px) {
       justify-content: center;
       width: 80%;
@@ -40,58 +43,62 @@ function Ventajas() {
   `;
   const FlexItemCol = styled.article`
     display: flex;
-    position: relative; 
+    position: relative;
     top: 50px;
     flex-direction: column;
     align-items: center;
-    margin: 1rem auto;
     font-size: xx-large;
-    
-    & p{
+
+    & p {
       font-size: large;
-      margin: 0% auto;
+      position: relative;
+      top: 100px;
     }
 
     @media (max-width: 1000px) {
-      & p{
+      top: 50px;
+      & p {
         width: 75%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto;
       }
     }
   `;
   const FlexItemColUno = styled.article`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem auto;
-  font-size: xx-large;
-  
-  & p{
-    font-size: large;
-    margin: -10px auto;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    font-size: xx-large;
 
-  @media (max-width: 1000px) {
-    & p{
-      width: 75%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 0 auto;
+    & p {
+      font-size: large;
+      margin: -10px auto;
     }
-  }
-`;
+
+    @media (max-width: 1000px) {
+      & p {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+      }
+    }
+  `;
   const Container = styled.div`
     height: 100%;
     padding: 5% 0;
     background-color: #e3e1e1;
-  `
+  `;
   return (
     <Container>
-      <FlexItemColUno data-aos="slip-up" data-aos-delay="500" data-aos-duration="5000" >
+      <FlexItemColUno
+        data-aos="slip-up"
+        data-aos-delay="500"
+        data-aos-duration="5000"
+      >
         <h2>VENTAJAS</h2>
         <p className="P">
           El desarrollo de programas a medida brinda soluciones que se ajustan a
@@ -101,10 +108,14 @@ function Ventajas() {
       </FlexItemColUno>
 
       <FlexContainerRow>
-        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="200" data-aos-duration="5000">
-          <FlexItemCol >
-            <AiFillLike  />
-            <MyH3 >MENOR GASTO </MyH3>
+        <FlexContentCol
+          data-aos="zoom-out-left "
+          data-aos-delay="200"
+          data-aos-duration="5000"
+        >
+          <FlexItemCol>
+            <AiFillLike />
+            <MyH3>MENOR GASTO </MyH3>
           </FlexItemCol>
           <p>
             Poner en marcha un software a medida necesita de una buena inversión
@@ -113,12 +124,14 @@ function Ventajas() {
             largo plazo.
           </p>
         </FlexContentCol>
-        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="200" data-aos-duration="5000">
+        <FlexContentCol
+          data-aos="zoom-out-right "
+          data-aos-delay="200"
+          data-aos-duration="5000"
+        >
           <FlexItemCol>
             <AiFillLike />
-            <MyH3>
-              AHORRO DE TIEMPO{" "}
-            </MyH3>
+            <MyH3>AHORRO DE TIEMPO </MyH3>
           </FlexItemCol>
           <p>
             Un software personalizado es capaz de reducir a minutos una o varias
@@ -129,7 +142,11 @@ function Ventajas() {
       </FlexContainerRow>
 
       <FlexContainerRow>
-        <FlexContentCol data-aos="zoom-out-left " data-aos-delay="300" data-aos-duration="5000">
+        <FlexContentCol
+          data-aos="zoom-out-left "
+          data-aos-delay="300"
+          data-aos-duration="5000"
+        >
           <FlexItemCol>
             <AiFillLike />
             <MyH3>INTEGRACIÓN </MyH3>
@@ -141,7 +158,11 @@ function Ventajas() {
             procesos.
           </p>
         </FlexContentCol>
-        <FlexContentCol data-aos="zoom-out-right " data-aos-delay="300" data-aos-duration="5000">
+        <FlexContentCol
+          data-aos="zoom-out-right "
+          data-aos-delay="300"
+          data-aos-duration="5000"
+        >
           <FlexItemCol>
             <AiFillLike />
             <MyH3>FLEXIBILIDAD</MyH3>
@@ -154,7 +175,6 @@ function Ventajas() {
           </p>
         </FlexContentCol>
       </FlexContainerRow>
-
     </Container>
   );
 }

@@ -61,7 +61,7 @@ function NoTransitionExample() {
   // };
 
   return (
-    <div>
+    <div className="slidernone">
       <Swiper
         onSwiper={setSwiperRef}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
