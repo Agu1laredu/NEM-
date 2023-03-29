@@ -75,9 +75,15 @@ function NoTransitionExample() {
           <SwiperSlide
             className="swiper-slide"
             key={Imagen}
+            style={{ display: "flex" }}
           >
-            <h2 className="titulo">{Titulo}</h2>
-            <img id="img"  src={Imagen} alt="..." />
+            <div className="divFoto">
+              <img id="img" src={Imagen} alt="..." />
+            </div>
+            <div className="divTexto">
+              <h2 className="titulo">{Titulo}</h2>
+              <b className="texto"> {texto}</b>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

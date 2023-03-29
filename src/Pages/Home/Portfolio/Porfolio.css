@@ -1,6 +1,6 @@
 #img {
-  height: 700px;
-  width: 120%;
+  height: 500px;
+  width: 100%;
   background-image: cover;
   cursor: pointer;
   border: 20px;
@@ -27,7 +27,27 @@
   font-size: 30px;
 }
 
+.divFoto {
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: justify;
+}
+.divTexto {
+  margin: auto 10px;
+  width: 100%;
+}
+.titulo {
+  position: relative;
+  top: 40%;
+  left: 10%;
+}
 
+.texto {
+  position: relative;
+  top: 40%;
+  left: 10%;
+  text-align: justify;
+}
 
 @media (max-width: 1000px) {
   #img {
