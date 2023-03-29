@@ -23,8 +23,9 @@
 .titulo {
   position: relative;
   margin: auto;
-  top: 50px;
-  left: 2%;
+  width: 90%;
+  top: -5px;
+  left: -15px;
   font-size: 30px;
 }
 
@@ -37,16 +38,12 @@
   margin: auto 10px;
   width: 100%;
 }
-.titulo {
-  position: relative;
-  top: 40%;
-  left: 10%;
-}
+
 
 .texto {
   position: relative;
   top: 40%;
-  left: 10%;
+  left: 2%;
   text-align: justify;
 }
 

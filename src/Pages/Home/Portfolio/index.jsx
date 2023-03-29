@@ -18,15 +18,7 @@ const Trabajos = [
     Imagen:
       "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-02.png?w=800&ssl=1",
   },
-  {
-    id: 20,
-    cagetory: "02",
-    Titulo: " DVIGI S.A - CRM A MEDIDA",
-    texto:
-      "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
-    Imagen:
-      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
-  },
+
   {
     id: 30,
     cagetory: "03",
@@ -36,6 +28,7 @@ const Trabajos = [
     Imagen:
       "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-01.png?w=800&ssl=1",
   },
+
   {
     id: 40,
     cagetory: "04",
@@ -43,6 +36,15 @@ const Trabajos = [
     texto:
       "En Connect te ofrecemos el mejor servicio de Internet banda ancha para empresas gracias a nuestras redes HFC de última generación. Disfrutá del mejor internet wifi para mantener tu negocio siempre conectado. ",
     Imagen: "https://www.prometec.net/wp-content/uploads/2016/07/internet.jpg",
+  },
+  {
+    id: 20,
+    cagetory: "02",
+    Titulo: " DVIGI S.A - CRM A MEDIDA",
+    texto:
+      "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
+    Imagen:
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
   },
 ];
 
