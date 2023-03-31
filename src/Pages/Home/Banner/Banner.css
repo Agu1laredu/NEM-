@@ -137,9 +137,9 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
   .banner .banner__Publicitario--Container p {
-    width: 40%;
+    width: 100%;
   }
 }
 
@@ -190,10 +190,35 @@
   }
 }
 
+@media (max-width: 800px) {
+  .banner {
+   margin: 100px auto;
+  }
+  .banner .banner__Publicitario--Container p {
+    width: 100%;
+  }
+  .banner .banner__Publicitario--Container h3 {
+    left: 1px;
+    top: -10px;
+  }
+  .banner .banner__Publicitario--Container h2 {
+    left: 1px;
+    top: 10px;
+  }
+  .banner .banner__Publicitario--Container b {
+    left: 1px;
+    top: 20px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .banner .banner__Publicitario--Container p {
     width: 300px;
   }
+  .banner {
+    margin:  auto;
+   }
 }
 
 @media (max-width: 400px) {
@@ -202,6 +227,7 @@
     flex-direction: column-reverse;
     position: relative;
     height: 500px;
+      margin:  auto;
   }
 
   .banner .banner__Publicitario--Container h3 {

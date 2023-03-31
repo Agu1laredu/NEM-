@@ -52,21 +52,29 @@ function Agencia() {
     margin: 1rem auto;
     font-size: xx-large;
     .description__Title {
-      width: 40%;
+      width: 100%;
       position: relative;
-      left: -25px;
+      left: 42%;
+     
     }
     & p {
       font-size: large;
       margin: 0% auto;
     }
 
-    @media (max-width: 1000px) {
-      & p {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+ 
+    
+    @media (max-width: 800px) {
+      .description__Title {
+        left: 300px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .description__Title {
+        width: 40%;
+        position: relative;
+        left: -25px;
       }
     }
   `;
