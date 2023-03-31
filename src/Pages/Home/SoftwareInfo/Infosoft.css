@@ -1,230 +1,230 @@
 /* Section Software */
 .softwareInfo {
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas:
-        "description"
-        "ERPyCRM"
-        "SGAyRRHH"
-        "MEDIDAyBOT";
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "description"
+    "ERPyCRM"
+    "SGAyRRHH"
+    "MEDIDAyBOT";
 }
 
 /* Description */
 .softwareInfo .softwareInfo__Desciption {
-    grid-area: description;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /* ERP y CRM */
 .softwareInfo .softwareInfo__ERPyCRM {
-    grid-area: ERPyCRM;
-    display: flex;
-    margin: 1rem;
-    height: 25vh;
+  grid-area: ERPyCRM;
+  display: flex;
+  margin: 1rem;
+  height: 25vh;
 }
 
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
-    width: 70%;
-    margin: auto;
-
+  width: 70%;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 /* SGA y RRHH */
 .softwareInfo .softwareInfo__SGAyRRHH {
-    grid-area: SGAyRRHH;
-    display: flex;
-    margin: 1rem;
-    height: 25vh;
+  grid-area: SGAyRRHH;
+  display: flex;
+  margin: 1rem;
+  height: 25vh;
 }
 
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 /* MEDIA y BOT */
 .softwareInfo .softwareInfo__MEDIDAyBOT {
-    grid-area: MEDIDAyBOT;
-    display: flex;
-    margin: 1rem;
-    height: 25vh;
+  grid-area: MEDIDAyBOT;
+  display: flex;
+  margin: 1rem;
+  height: 25vh;
 }
 
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
+@media (max-width: 1000px) {
+  /* Section Software */
+  .softwareInfo {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "description"
+      "ERPyCRM"
+      "SGAyRRHH"
+      "MEDIDAyBOT";
+      margin-bottom: -400px;
+  }
 
+  /* Description */
+  .softwareInfo .softwareInfo__Desciption {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  }
+  .softwareInfo .softwareInfo__Desciption h1 {
+    font-size: 50px;
+    width: 40%;
+  }
 
-@media(max-width: 1000px) {
+  /* ERP y CRM */
+  .softwareInfo .softwareInfo__ERPyCRM {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    position: relative;
+    top: -450px;
+  }
 
-    /* Section Software */
-    .softwareInfo {
-        display: grid;
-        margin: 3rem 0;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas:
-            "description"
-            "ERPyCRM"
-            "SGAyRRHH"
-            "MEDIDAyBOT";
-    }
+  .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP {
+    width: 100%;
+    display: flex;
+    margin: 1rem auto;
+  }
+  .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
+    width: 40%;
+  }
 
-    /* Description */
-    .softwareInfo .softwareInfo__Desciption {
-        display: flex;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-    }
-    .softwareInfo .softwareInfo__Desciption h1{
-        font-size: 50px;
-    }
+  .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
 
-    /* ERP y CRM */
-    .softwareInfo .softwareInfo__ERPyCRM {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        height: max-content;
-    }
+  .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
+    width: 40%;
+  }
 
-    .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP {
-        width: 100%;
-        display: flex;
-        margin: 1rem auto;
-    }
+  /* SGA y RRHH */
+  .softwareInfo .softwareInfo__SGAyRRHH {
+    margin: 1rem;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    top: -450px;
+  }
 
-    .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
-        width: 80%;
-    }
+  .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
 
-    .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM {
-        width: 100%;
-        margin: 3rem auto 0;
-    }
+  .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
+    width: 40%;
+  }
 
-    .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
-        width: 80%;
-    }
+  .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
 
-    /* SGA y RRHH */
-    .softwareInfo .softwareInfo__SGAyRRHH {
-        margin: 1rem;
-        flex-direction: column;
-        height: auto;
-    }
+  .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
+    width: 40%;
+  }
 
-    .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH {
-        width: 100%;
-        margin: 3rem auto 0;
-    }
+  /* MEDIA y BOT */
+  .softwareInfo .softwareInfo__MEDIDAyBOT {
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    top: -450px;
+  }
 
-    .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
-        width: 80%;
-    }
+  .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
 
-    .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA {
-        width: 100%;
-        margin: 3rem auto 0;
-    }
+  .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p {
+    width: 40%;
+  }
 
-    .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
-        width: 80%;
-    }
+  .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT {
+    width: 100%;
+    margin: 3rem auto 0;
+  }
 
-    /* MEDIA y BOT */
-    .softwareInfo .softwareInfo__MEDIDAyBOT {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA {
-        width: 100%;
-        margin: 3rem auto 0;
-    }
-
-    .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p {
-        width: 80%;
-    }
-
-    .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT {
-        width: 100%;
-        margin: 3rem auto 0;
-    }
-
-    .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p {
-        width: 80%;
-    }
-
+  .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p {
+    width: 40%;
+  }
 }

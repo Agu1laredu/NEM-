@@ -1,15 +1,14 @@
 import { GoVerified } from "react-icons/go";
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 import styled from "styled-components";
 // ..
 AOS.init();
 
 function Agencia() {
-  
   const MyH3 = styled.h3`
     font-size: 18px;
-  `
+  `;
 
   const FlexContainerRow = styled.div`
     display: flex;
@@ -18,7 +17,7 @@ function Agencia() {
     @media (max-width: 1000px) {
       flex-direction: column;
     }
-  `
+  `;
 
   const FlexContentCol = styled.article`
     display: flex;
@@ -29,35 +28,38 @@ function Agencia() {
     margin: auto;
     height: 20vh;
 
-    & p{
+    & p {
       width: 80%;
     }
 
     @media (max-width: 1000px) {
       justify-content: center;
-      width: 80%;
+      width: 50%;
       margin: auto;
       height: auto;
     }
   `;
   const FlexItemCol = styled.article`
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     margin: 1rem auto;
     font-size: xx-large;
-    & p{
+    .description__Title {
+      width: 40%;
+    }
+    & p {
       font-size: large;
       margin: 0% auto;
     }
 
     @media (max-width: 1000px) {
-      & p{
-        width: 75%;
+      & p {
+        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 auto;
       }
     }
   `;
@@ -65,10 +67,14 @@ function Agencia() {
     height: 100%;
     margin: 5% 0;
     background-color: #e3e1e1;
-  `
+  `;
   return (
     <Container>
-      <FlexItemCol data-aos="zoom-out-left " data-aos-delay="500" data-aos-duration="5000">
+      <FlexItemCol
+        data-aos="zoom-out-left "
+        data-aos-delay="500"
+        data-aos-duration="5000"
+      >
         <h1 className="description__Title">AGENCIA</h1>
         <p className="description__Paragraph">
           Servicios de marketing digital que conectan a tu empresa con
