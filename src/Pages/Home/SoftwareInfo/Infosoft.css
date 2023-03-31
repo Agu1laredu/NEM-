@@ -240,20 +240,29 @@
   }
 }
 @media (max-width: 650px) {
+  .softwareInfo .softwareInfo__Desciption {
+    text-align: center;
+  }
   .softwareInfo .softwareInfo__Desciption h1 {
     position: relative;
-    left: 150px;
+    left: 1%;
   }
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
+    .softwareInfo .softwareInfo__Desciption {
+        text-align: center;
+      }
   .softwareInfo .softwareInfo__Desciption h1 {
     position: relative;
     left: 50px;
   }
 }
 @media (max-width: 300px) {
+    .softwareInfo .softwareInfo__Desciption {
+        text-align: center;
+      }
   .softwareInfo .softwareInfo__Desciption h1 {
     position: relative;
     left: 40px;
   }
-}
+} */
