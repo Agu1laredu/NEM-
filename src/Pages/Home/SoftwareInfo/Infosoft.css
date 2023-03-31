@@ -234,28 +234,26 @@
   }
 }
 @media (max-width: 800px) {
-    .softwareInfo .softwareInfo__Desciption h1 {
-      left: 250px;
-      position: relative;
-    }
+  .softwareInfo .softwareInfo__Desciption h1 {
+    left: 250px;
+    position: relative;
   }
+}
 @media (max-width: 600px) {
-    .softwareInfo .softwareInfo__Desciption h1 {
-      position: relative;
-      left: 150px;
-    }
+  .softwareInfo .softwareInfo__Desciption h1 {
+    position: relative;
+    left: 150px;
   }
-  @media (max-width: 400px) {
-    .softwareInfo .softwareInfo__Desciption h1 {
-      position: relative;
-      left: 55px;
-    }
+}
+@media (max-width: 400px) {
+  .softwareInfo .softwareInfo__Desciption h1 {
+    position: relative;
+    left: 50px;
   }
-  @media (max-width: 300px) {
-    .softwareInfo .softwareInfo__Desciption h1 {
-      position: relative;
-      left: 40px;
-    }
+}
+@media (max-width: 300px) {
+  .softwareInfo .softwareInfo__Desciption h1 {
+    position: relative;
+    left: 40px;
   }
-  
-  
+}
