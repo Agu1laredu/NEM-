@@ -16,7 +16,6 @@ function SoftwareInfo() {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem auto;
   font-size: x-large;
 `;
 

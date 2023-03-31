@@ -137,14 +137,11 @@
   }
 }
 
-@media (max-width: 1100px) { 
+@media (max-width: 1100px) {
   .banner .banner__Publicitario--Container p {
-    
-    width: 300px;
+    width: 40%;
   }
 }
-
-
 
 @media (max-width: 1000px) {
   /* Baner del home */
@@ -165,7 +162,7 @@
   .banner .banner__Publicitario--Container p {
     left: 1px;
     top: -30px;
-    width: 500px;
+    width: 40px;
   }
   .banner .banner__Publicitario--Container b {
     left: 1px;
@@ -193,16 +190,15 @@
   }
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
   .banner .banner__Publicitario--Container p {
     width: 300px;
   }
 }
 
-
-@media (max-width: 400px) { 
-   /* Baner del home */
-   .banner {
+@media (max-width: 400px) {
+  /* Baner del home */
+  .banner {
     flex-direction: column-reverse;
     position: relative;
     height: 500px;

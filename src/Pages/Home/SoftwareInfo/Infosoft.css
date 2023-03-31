@@ -133,26 +133,28 @@
       "ERPyCRM"
       "SGAyRRHH"
       "MEDIDAyBOT";
-      margin-bottom: -400px;
+    margin-bottom: -400px;
   }
 
   /* Description */
   .softwareInfo .softwareInfo__Desciption {
     display: flex;
-    width: 100%;
+    width: 50%;
     height: 50%;
+    margin: auto;
     justify-content: center;
   }
   .softwareInfo .softwareInfo__Desciption h1 {
     font-size: 50px;
-    width: 40%;
+    position: relative;
+    left: -20px;
+    margin: 0 auto;
   }
 
   /* ERP y CRM */
   .softwareInfo .softwareInfo__ERPyCRM {
     display: flex;
     flex-direction: column;
-    height: max-content;
     position: relative;
     top: -450px;
   }
