@@ -14,6 +14,11 @@ function Footer2() {
       flex-direction: column;
       align-items: center;
     }
+    @media (max-width: 1000px) {
+      & p {
+        width: 50%;
+      }
+    }
   `;
   const FontIcon = styled.div`
     font-size: x-large;

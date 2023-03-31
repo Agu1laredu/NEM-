@@ -8,7 +8,7 @@ function Formulario() {
         <h3 className="h3">
           ¿NECESITAS AYUDA?
         </h3>
-        <h3>
+        <h3 className="h3dos">
           ESCRÍBENOS
         </h3>
         <p className="p">
