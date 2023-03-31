@@ -133,13 +133,12 @@
       "ERPyCRM"
       "SGAyRRHH"
       "MEDIDAyBOT";
-    margin-bottom: -400px;
   }
 
   /* Description */
   .softwareInfo .softwareInfo__Desciption {
     display: flex;
-    width: 50%;
+    width: 100%;
     height: 50%;
     margin: auto;
     justify-content: center;
@@ -147,8 +146,12 @@
   .softwareInfo .softwareInfo__Desciption h1 {
     font-size: 50px;
     position: relative;
-    left: -20px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    left: 50px;
+  }
+  .softwareInfo .softwareInfo__Desciption p {
+    width: 90%;
   }
 
   /* ERP y CRM */
@@ -156,7 +159,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -450px;
+    top: -150px;
   }
 
   .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP {
@@ -165,7 +168,7 @@
     margin: 1rem auto;
   }
   .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--ERP p {
-    width: 40%;
+    width: 100%;
   }
 
   .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM {
@@ -174,7 +177,7 @@
   }
 
   .softwareInfo .softwareInfo__ERPyCRM .softwareInfo__ERPyCRM--CRM p {
-    width: 40%;
+    width: 100%;
   }
 
   /* SGA y RRHH */
@@ -183,7 +186,7 @@
     flex-direction: column;
     height: auto;
     position: relative;
-    top: -450px;
+    top: -150px;
   }
 
   .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH {
@@ -192,7 +195,7 @@
   }
 
   .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--RRHH p {
-    width: 40%;
+    width: 100%;
   }
 
   .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA {
@@ -201,7 +204,7 @@
   }
 
   .softwareInfo .softwareInfo__SGAyRRHH .softwareInfo__SGAyRRHH--SGA p {
-    width: 40%;
+    width: 100%;
   }
 
   /* MEDIA y BOT */
@@ -209,7 +212,7 @@
     flex-direction: column;
     height: auto;
     position: relative;
-    top: -450px;
+    top: -150px;
   }
 
   .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA {
@@ -218,7 +221,7 @@
   }
 
   .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--MEDIA p {
-    width: 40%;
+    width: 100%;
   }
 
   .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT {
@@ -227,6 +230,6 @@
   }
 
   .softwareInfo .softwareInfo__MEDIDAyBOT .softwareInfo__MEDIDAyBOT--BOT p {
-    width: 40%;
+    width: 100%;
   }
 }

@@ -13,6 +13,11 @@ function Ventajas() {
 
     @media (max-width: 1000px) {
       flex-direction: column;
+
+      p {
+        width: 100%;
+        border: 2px soliud red;
+      }
     }
   `;
 
@@ -26,7 +31,9 @@ function Ventajas() {
     height: 20vh;
 
     p {
-      width: 50%;
+      position: relative;
+      left: 10px;
+      width: 100%;
     }
     @media (max-width: 1300px) {
       justify-content: center;
@@ -52,12 +59,14 @@ function Ventajas() {
     & p {
       font-size: large;
       position: relative;
+      text-aling: justify;
       top: 100px;
     }
 
     @media (max-width: 1000px) {
       top: 50px;
       & p {
+        
         width: 75%;
         display: flex;
         flex-direction: column;
@@ -78,8 +87,10 @@ function Ventajas() {
     }
 
     @media (max-width: 1000px) {
-      & p {
-        width: 75%;
+      p {
+        position: relative;
+        left: 10px;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;

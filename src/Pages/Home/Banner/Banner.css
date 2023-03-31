@@ -205,25 +205,27 @@
   }
 
   .banner .banner__Publicitario--Container h3 {
-    left: 1px;
+    left: -10px;
     top: 10px;
+   
   }
   .banner .banner__Publicitario--Container h2 {
-    left: 1px;
+    left: -10px;
     top: 10px;
   }
   .banner .banner__Publicitario--Container p {
-    left: 1px;
+    left: -10px;
     top: -30px;
     width: 300px;
   }
   .banner .banner__Publicitario--Container b {
-    left: 1px;
+    left: -10px;
     top: 15px;
+    width: 300px;
   }
 
   #Button {
-    left: -25px;
+    left: -30px;
     top: -50px;
   }
 }

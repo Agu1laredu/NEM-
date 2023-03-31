@@ -34,9 +34,14 @@ function Agencia() {
 
     @media (max-width: 1000px) {
       justify-content: center;
-      width: 50%;
+      width: 90%;
       margin: auto;
       height: auto;
+
+      & p {
+        width: 100%;
+      }
+
     }
   `;
   const FlexItemCol = styled.article`
@@ -48,6 +53,8 @@ function Agencia() {
     font-size: xx-large;
     .description__Title {
       width: 40%;
+      position: relative;
+      left: -25px;
     }
     & p {
       font-size: large;
@@ -56,7 +63,7 @@ function Agencia() {
 
     @media (max-width: 1000px) {
       & p {
-        width: 40%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;

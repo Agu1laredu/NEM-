@@ -3,6 +3,8 @@ body {
   padding: 0;
   font-family: Cambria;
   box-sizing: border-box;
+  text-align: justify;
+  background-color: #e3e1e1;
 }
 
 code {

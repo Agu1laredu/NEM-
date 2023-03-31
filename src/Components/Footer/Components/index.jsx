@@ -16,7 +16,7 @@ function Footer2() {
     }
     @media (max-width: 1000px) {
       & p {
-        width: 50%;
+        width: 70%;
       }
     }
   `;
