@@ -242,7 +242,14 @@
 @media (max-width: 600px) {
     .softwareInfo .softwareInfo__Desciption h1 {
       position: relative;
+      left: 150px;
+    }
+  }
+  @media (max-width: 400px) {
+    .softwareInfo .softwareInfo__Desciption h1 {
+      position: relative;
       left: 50px;
     }
   }
+  
   
