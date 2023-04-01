@@ -30,6 +30,9 @@ const router = createBrowserRouter([
     path: "/Contacto",
     element: <Contacto />,
   },
+  {
+    path: "https://aguilarservice.netlify.app",
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
