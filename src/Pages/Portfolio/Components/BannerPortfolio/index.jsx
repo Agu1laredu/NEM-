@@ -1,72 +1,90 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
-import { Button } from "../../../../Components/Buttom/Button";
+import { Button } from "./Buttom/Button";
+import ProyectoCoder from "./assets/coderproyecto.jpg";
+import Nem from "./assets/nem.jpg";
 
 const Trabajos = [
   {
-    id: 10,
+    id: 20,
     cagetory: "01",
-    Titulo: " MUVIN APP - LOGÍSTICA AGROINDUSTRIAL",
+    Titulo: " EMPRESA DE SOFTWARE - NEM TECHNOLOGIES ",
     texto:
-      "Software de gestión logística que conecta a todos los actores de la cadena mediante la georreferenciación. ",
-    Imagen:
-      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-02.png?w=800&ssl=1",
+      "Nos encargamos de que la inteligencia digital se adapte a tu empresa para agilizar procesos que aumenten la productividad y las ventas. ",
+    Imagen: Nem,
+    url: "https://aguilarservice.netlify.app/",
   },
   {
-    id: 20,
+    id: 10,
     cagetory: "02",
-    Titulo: " DVIGI S.A - CRM A MEDIDA",
+    Titulo: " MODELO E-COMMERCE - INSPÍRADO EN ASUS COMPANY",
     texto:
-      "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
-    Imagen:
-      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
+      "ASUS es una compañía multinacional de hardware informático y electrónica de consumo con sede en Taiwán, establecida en 1989. Dedicada a crear productos para la vida inteligente de hoy y mañana ",
+    Imagen: "https://asuscompany.netlify.app/Imagenes/courusel1.webp",
+    url: "https://asuscompany.netlify.app/index.html",
   },
+  {
+    id: 10,
+    cagetory: "03",
+    Titulo: " Construye un gran proyecto - Manual web ",
+    texto:
+      "Les invito a revisar los detalles de la segunda pre-entrega en los enlaces del encabezado. Espero que les resulten útiles para completar el desafío con éxito. ¡Mucho ánimo! ",
+    Imagen: ProyectoCoder,
+    url: "https://aguilar1998.github.io/segundaPre-entrega/index.html",
+  },
+
   {
     id: 30,
-    cagetory: "03",
+    cagetory: "04",
     Titulo: "RANDSTAD - PLAN DE POSICIONAMIENTO WEB",
     texto:
       "Estrategia SEO para alcanzar la primera página de google con las keywords más rentables. ",
     Imagen:
       "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-01.png?w=800&ssl=1",
   },
+
   {
     id: 40,
-    cagetory: "04",
+    cagetory: "05",
     Titulo: " CONNECT DIGITAL",
     texto:
       "En Connect te ofrecemos el mejor servicio de Internet banda ancha para empresas gracias a nuestras redes HFC de última generación. Disfrutá del mejor internet wifi para mantener tu negocio siempre conectado. ",
     Imagen: "https://www.prometec.net/wp-content/uploads/2016/07/internet.jpg",
   },
   {
-    id: 50,
-    cagetory: "05",
-    Titulo: " YT Energy",
+    id: 20,
+    cagetory: "06",
+    Titulo: " DVIGI S.A - CRM A MEDIDA",
     texto:
-      "Yanos Territorios S.A. es una empresa de más 30 años de trayectoria, habiendo operado yacimientos de gas y petróleo en Argentina, Ecuador y Colombia. En la actualidad, Petróleos Sudamericanos SA focaliza sus negocios en la Rep Argentina, siendo concesionaria  de exploración y explotación de 7 áreas en la Cuenca Neuquina.  ",
+      "Software CRM con funciones específicas para el control de ventas y stock. Integraciones con formas de pago online y envíos. ",
     Imagen:
-      "https://static.wixstatic.com/media/745fb0_3b67c3d903c24ed794fa42f7d50b68d3~mv2.jpg/v1/fill/w_1903,h_599,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/745fb0_3b67c3d903c24ed794fa42f7d50b68d3~mv2.jpg",
+      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-03.png?w=800&ssl=1",
   },
 ];
 
 function Portfolio() {
   return (
     <div className="BannerPortfolio">
-      {Trabajos.map(({ id, cagetory, texto, Imagen, Titulo }) => (
+      {Trabajos.map(({ id, cagetory, texto, Imagen, Titulo, url }) => (
         <section key={id} className="trabajo">
           <div className="slide-in-bck-left" style={{ margin: "auto" }}>
             <h2 className="category ">{cagetory}</h2>
             <h2 className="Titulo">{Titulo}</h2>
             <p className="textos">{texto}</p>
-
-            <div className="Button">
-              <Button texto="VER TRABAJO" color="white">
-                <Link style={{ color: "black" }}  />
-              </Button>
-            </div>
+            <a href={url}>
+              <div className="Button">
+                <Button texto="VER TRABAJO" color="white">
+                  <Link to={url} style={{ color: "black" }} />
+                </Button>
+              </div>
+            </a>
           </div>
           <section style={{ margin: "auto" }}>
-            <img className="imagenTrabajo slide-in-bck-right " src={Imagen} alt="" />
+            <img
+              className="imagenTrabajo slide-in-bck-right "
+              src={Imagen}
+              alt=""
+            />
           </section>
         </section>
       ))}

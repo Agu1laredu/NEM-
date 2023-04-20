@@ -23,11 +23,11 @@ const Trabajos = [
   {
     id: 10,
     cagetory: "02",
-    Titulo: " MUVIN APP - LOGÍSTICA AGROINDUSTRIAL",
+    Titulo: " MODELO E-COMMERCE - INSPÍRADO EN ASUS COMPANY",
     texto:
-      "Software de gestión logística que conecta a todos los actores de la cadena mediante la georreferenciación. ",
-    Imagen:
-      "https://i0.wp.com/www.softcom.com.ar/wp-content/uploads/2019/12/trabajo-02.png?w=800&ssl=1",
+      "E-Commerce modelo Asus : ASUS es una compañía multinacional de hardware informático y electrónica de consumo con sede en Taiwán, establecida en 1989. Dedicada a crear productos para la vida inteligente de hoy y mañana, ASUS es la marca número uno del mundo en placas madre y juegos, así como uno de los tres principales proveedores de notebooks para consumidores. ",
+    Imagen: "https://asuscompany.netlify.app/Imagenes/courusel1.webp",
+    url: "https://asuscompany.netlify.app/index.html",
   },
   {
     id: 10,
