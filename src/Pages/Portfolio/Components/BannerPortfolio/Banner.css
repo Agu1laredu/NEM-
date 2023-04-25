@@ -57,9 +57,9 @@
 @media (max-width: 1300px) {
   .category {
     position: relative;
-   left: 50px;
-   font-size: 100px;
-   margin-bottom: -50px;
+    left: 50px;
+    font-size: 100px;
+    margin-bottom: -50px;
   }
   .Button {
     top: 85px;

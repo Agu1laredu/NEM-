@@ -69,18 +69,7 @@ const Trabajos = [
 ];
 
 function NoTransitionExample() {
-  // const swiper = useSwiper();
-
   const [, setSwiperRef] = useState(null);
-  // const [index, setIndex] = useState(0);
-
-  // const handleChangeIndex = (type) => {
-  //   if (type === "next") {
-  //   }
-
-  //   if (type === "previous") {
-  //   }
-  // };
 
   return (
     <div className="slidernone">
