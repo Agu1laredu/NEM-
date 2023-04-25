@@ -7,6 +7,12 @@
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .Equipo {
+    position: relative;
+    top: -100px;
+  }
+}
 
 .divEquipo {
   column-gap: 4rem;

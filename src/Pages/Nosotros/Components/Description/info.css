@@ -15,6 +15,19 @@
   align-content: flex-end;
 }
 
+@media (max-width: 600px) {
+  .bannerinfo {
+    width: 80%;
+    position: relative;
+    top: -100px;
+    left: 20px;
+  }
+  .bannerinfo section {
+    position: relative;
+    top: 150px;
+  }
+}
+
 .bannerinfo section {
   position: relative;
   top: 150px;
@@ -28,4 +41,19 @@
 .bannerinfo p {
   width: 400px;
   text-align: justify;
+}
+@media (max-width: 600px) {
+  .bannerinfo {
+    width: 80%;
+    position: relative;
+    top: -100px;
+    left: 20px;
+  }
+  .bannerinfo section {
+    position: relative;
+    top: 50px;
+  }
+  .bannerinfo p {
+    width: 300px;
+  }
 }
