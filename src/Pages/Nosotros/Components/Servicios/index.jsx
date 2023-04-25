@@ -27,7 +27,6 @@ function Servicios() {
     width: 40%;
     margin: auto;
     height: 20vh;
-    border: 2px solid red;
     @media (max-width: 600px) {
       display: none;
     }
